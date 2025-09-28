@@ -187,3 +187,11 @@
 [28Sep2025 22:49:38.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel23456 joined the game
 [28Sep2025 22:49:52.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel23456> r
 [28Sep2025 22:50:19.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
+[28Sep2025 22:51:44.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Invalid name or UUID
+[28Sep2025 22:51:44.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ... creative /gamemode creative Samuel23456<--[HERE]
+[28Sep2025 22:51:57.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set Samuel23456's game mode to Creative Mode
+[28Sep2025 22:53:27.736] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel23456 lost connection: Disconnected
+[28Sep2025 22:53:27.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel23456 left the game
+[28Sep2025 22:56:20.530] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6fb1b972[id=<null>,name=Samuel23456,properties={},legacy=false] (/100.116.191.5:33160) lost connection: Disconnected
+[28Sep2025 22:58:35.130] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@78a2f07a[id=<null>,name=Ghost2026yT,properties={},legacy=false] (/100.67.52.59:55288) lost connection: Disconnected
+[28Sep2025 22:58:37.930] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1a3aac35[id=<null>,name=Ghost2026yT,properties={},legacy=false] (/100.67.52.59:48600) lost connection: Disconnected
