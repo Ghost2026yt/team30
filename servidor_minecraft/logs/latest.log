@@ -180,3 +180,10 @@
 [28Sep2025 22:39:05.582] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.116.191.5:42350 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
 [28Sep2025 22:39:09.630] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.116.191.5:42372 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
 [28Sep2025 22:39:12.580] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.116.191.5:42384 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
+[28Sep2025 22:44:08.585] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@45ced51d[id=<null>,name=Samuel23456,properties={},legacy=false] (/100.116.191.5:35996) lost connection: Disconnected
+[28Sep2025 22:46:01.230] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3723c3b[id=<null>,name=Ghost2026yT,properties={},legacy=false] (/100.67.52.59:46684) lost connection: Disconnected
+[28Sep2025 22:46:56.430] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1a27188d[id=<null>,name=Samuel23456,properties={},legacy=false] (/100.116.191.5:34528) lost connection: Disconnected
+[28Sep2025 22:49:38.191] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Samuel23456[/100.116.191.5:56342] logged in with entity id 284 at (70.5, 75.0, -144.5)
+[28Sep2025 22:49:38.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel23456 joined the game
+[28Sep2025 22:49:52.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel23456> r
+[28Sep2025 22:50:19.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
