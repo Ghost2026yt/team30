@@ -1,198 +1,560 @@
-[28Sep2025 22:30:46.076] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[28Sep2025 22:30:46.080] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[28Sep2025 22:30:46.194] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/team30/servidor_minecraft/config/fml.toml is not correct. Correcting
-[28Sep2025 22:30:46.196] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[28Sep2025 22:30:46.197] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
-[28Sep2025 22:30:46.198] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[28Sep2025 22:30:46.199] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
-[28Sep2025 22:30:46.302] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[28Sep2025 22:30:46.426] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/team30/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[28Sep2025 22:30:46.801] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/team30/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[28Sep2025 22:30:46.803] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/team30/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[28Sep2025 22:30:46.805] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/team30/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[28Sep2025 22:30:46.807] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/team30/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[28Sep2025 22:30:46.935] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[28Sep2025 22:30:49.720] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[28Sep2025 22:31:00.889] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[28Sep2025 22:31:00.897] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[28Sep2025 22:31:02.144] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[28Sep2025 22:31:02.867] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[28Sep2025 22:31:04.356] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[28Sep2025 22:31:04.538] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/team30/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
-[28Sep2025 22:31:04.542] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/team30/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
-[28Sep2025 22:31:08.121] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[28Sep2025 22:31:08.447] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[28Sep2025 22:31:09.376] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[28Sep2025 22:31:09.377] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[28Sep2025 22:31:09.378] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[28Sep2025 22:31:09.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[28Sep2025 22:31:09.561] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[28Sep2025 22:31:09.618] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[28Sep2025 22:31:09.724] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[28Sep2025 22:31:09.725] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[28Sep2025 22:31:09.726] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[28Sep2025 22:31:09.726] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[28Sep2025 22:31:09.761] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[28Sep2025 22:31:09.764] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[28Sep2025 22:31:09.765] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[28Sep2025 22:31:09.767] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[28Sep2025 22:31:09.768] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[28Sep2025 22:31:09.770] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[28Sep2025 22:31:09.771] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[28Sep2025 22:31:09.773] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[28Sep2025 22:31:09.773] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[28Sep2025 22:31:09.854] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[28Sep2025 22:31:26.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[28Sep2025 22:31:28.534] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:28.542] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:28.550] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:28.554] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:28.554] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:29.113] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:29.365] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:29.809] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:30.314] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:30.853] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:31.289] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:31.759] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:32.242] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:32.721] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:33.303] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:33.755] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:34.226] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:34.721] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:35.266] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:35.717] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:36.216] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:36.729] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:37.307] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:37.719] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:38.266] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:38.734] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:39.229] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:39.719] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:40.265] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:40.738] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:41.233] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:41.726] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:42.222] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:42.714] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:43.332] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:43.740] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:44.238] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:44.743] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:45.257] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:45.714] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:46.228] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:46.762] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:47.257] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:47.733] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:48.237] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:48.725] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:49.232] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:49.730] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:50.218] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:50.729] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:51.223] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:51.732] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:52.261] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:52.724] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:53.241] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:53.733] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:54.217] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:54.783] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:55.246] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:55.756] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:56.215] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:56.747] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:57.216] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:57.764] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:58.245] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:58.726] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:59.214] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:31:59.723] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:00.238] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:00.770] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:04.159] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:04.161] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:04.162] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:04.169] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:04.170] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:04.171] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:04.236] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:04.725] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:05.219] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:05.719] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:06.230] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:06.719] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:07.240] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:07.720] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:08.238] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:08.769] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:09.217] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:09.716] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:10.229] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:10.720] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:11.215] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:11.724] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:12.280] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:12.716] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:13.404] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:13.828] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:14.302] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:14.821] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:15.248] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:15.714] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:16.218] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:16.718] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:17.278] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:17.779] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:18.218] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:18.732] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:19.241] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:19.725] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:20.237] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:20.768] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:21.231] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:21.731] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:22.263] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:22.717] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:23.246] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:23.790] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:24.237] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:24.780] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:25.214] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:25.717] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:26.216] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:26.746] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:27.249] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:27.747] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:28.234] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:29.291] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:29.294] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Sep2025 22:32:29.746] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[28Sep2025 22:32:30.384] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
-[28Sep2025 22:32:31.428] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[28Sep2025 22:32:31.429] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[28Sep2025 22:32:35.996] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 69783 ms
-[28Sep2025 22:32:35.998] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (86.249s)! For help, type "help"
-[28Sep2025 22:32:36.028] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[28Sep2025 22:39:05.582] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.116.191.5:42350 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
-[28Sep2025 22:39:09.630] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.116.191.5:42372 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
-[28Sep2025 22:39:12.580] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.116.191.5:42384 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
-[28Sep2025 22:44:08.585] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@45ced51d[id=<null>,name=Samuel23456,properties={},legacy=false] (/100.116.191.5:35996) lost connection: Disconnected
-[28Sep2025 22:46:01.230] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3723c3b[id=<null>,name=Ghost2026yT,properties={},legacy=false] (/100.67.52.59:46684) lost connection: Disconnected
-[28Sep2025 22:46:56.430] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1a27188d[id=<null>,name=Samuel23456,properties={},legacy=false] (/100.116.191.5:34528) lost connection: Disconnected
-[28Sep2025 22:49:38.191] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Samuel23456[/100.116.191.5:56342] logged in with entity id 284 at (70.5, 75.0, -144.5)
-[28Sep2025 22:49:38.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel23456 joined the game
-[28Sep2025 22:49:52.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samuel23456> r
-[28Sep2025 22:50:19.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[28Sep2025 22:51:44.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Invalid name or UUID
-[28Sep2025 22:51:44.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ... creative /gamemode creative Samuel23456<--[HERE]
-[28Sep2025 22:51:57.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set Samuel23456's game mode to Creative Mode
-[28Sep2025 22:53:27.736] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samuel23456 lost connection: Disconnected
-[28Sep2025 22:53:27.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samuel23456 left the game
-[28Sep2025 22:56:20.530] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6fb1b972[id=<null>,name=Samuel23456,properties={},legacy=false] (/100.116.191.5:33160) lost connection: Disconnected
-[28Sep2025 22:58:35.130] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@78a2f07a[id=<null>,name=Ghost2026yT,properties={},legacy=false] (/100.67.52.59:55288) lost connection: Disconnected
-[28Sep2025 22:58:37.930] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1a3aac35[id=<null>,name=Ghost2026yT,properties={},legacy=false] (/100.67.52.59:48600) lost connection: Disconnected
-[28Sep2025 23:44:59.030] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4fcb8e93[id=<null>,name=Samuel23456,properties={},legacy=false] (/100.116.191.5:50114) lost connection: Disconnected
+[03Oct2025 23:27:09.130] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[03Oct2025 23:27:09.137] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[03Oct2025 23:27:09.680] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[03Oct2025 23:27:09.829] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/team30/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[03Oct2025 23:27:10.306] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/team30/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[03Oct2025 23:27:10.315] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/team30/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[03Oct2025 23:27:10.321] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/team30/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[03Oct2025 23:27:10.324] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/team30/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[03Oct2025 23:27:10.823] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[03Oct2025 23:27:14.439] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03Oct2025 23:27:14.487] [main/ERROR] [mixin/]: Mixin config palladiumcore-common.mixins.json does not specify "minVersion" property
+[03Oct2025 23:27:14.489] [main/ERROR] [mixin/]: Mixin config palladiumcore.mixins.json does not specify "minVersion" property
+[03Oct2025 23:27:14.498] [main/ERROR] [mixin/]: Mixin config alienevo-common.mixins.json does not specify "minVersion" property
+[03Oct2025 23:27:14.499] [main/ERROR] [mixin/]: Mixin config alienevo.mixins.json does not specify "minVersion" property
+[03Oct2025 23:27:14.527] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[03Oct2025 23:27:18.090] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[03Oct2025 23:27:25.710] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin::handler$zbe000$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[03Oct2025 23:27:30.508] [KubeJS Background Thread/INFO] [KubeJS/]: Loaded common.properties
+[03Oct2025 23:27:30.510] [KubeJS Background Thread/INFO] [KubeJS/]: Loaded dev.properties
+[03Oct2025 23:27:30.547] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[03Oct2025 23:27:30.550] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[03Oct2025 23:27:30.552] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[03Oct2025 23:27:30.569] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
+[03Oct2025 23:27:30.569] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[03Oct2025 23:27:30.572] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source palladium
+[03Oct2025 23:27:30.747] [modloading-worker-0/INFO] [KubeJS/]: Done in 200.1 ms
+[03Oct2025 23:27:31.024] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[03Oct2025 23:27:31.024] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[03Oct2025 23:27:31.345] [modloading-worker-0/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load pack metadata
+com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
+	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:9) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_10214_(AbstractPackResources.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_5550_(AbstractPackResources.java:33) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_246334_(Pack.java:60) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_245429_(Pack.java:35) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.threetag.palladium.addonpack.forge.AddonPackManagerImpl$ModPackSource.m_7686_(AddonPackManagerImpl.java:49) ~[palladium-4.2.9+1.20.1-forge.jar%23111!/:4.2.9+1.20.1]
+	at net.minecraft.server.packs.repository.PackRepository.m_10526_(PackRepository.java:39) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.repository.PackRepository.m_10506_(PackRepository.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at dev.latvian.mods.kubejs.script.ScriptManager.handler$zin000$loadFromDirectory(ScriptManager.java:537) ~[kubejs-forge-2001.6.5-build.16.jar%23110!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.script.ScriptManager.loadFromDirectory(ScriptManager.java:150) ~[kubejs-forge-2001.6.5-build.16.jar%23110!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.script.ScriptManager.reload(ScriptManager.java:72) ~[kubejs-forge-2001.6.5-build.16.jar%23110!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.KubeJS.<init>(KubeJS.java:137) ~[kubejs-forge-2001.6.5-build.16.jar%23110!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.forge.KubeJSForge.<init>(KubeJSForge.java:51) ~[kubejs-forge-2001.6.5-build.16.jar%23110!/:2001.6.5-build.16]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23117!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23116!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[03Oct2025 23:27:31.351] [modloading-worker-0/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack mod:minecraft
+[03Oct2025 23:27:31.487] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[03Oct2025 23:27:31.490] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[03Oct2025 23:27:31.518] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
+[03Oct2025 23:27:31.804] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.317 s
+[03Oct2025 23:27:32.422] [modloading-worker-0/INFO] [KubeJS Startup/]: example.js#5: Hello, World! (Loaded startup scripts)
+[03Oct2025 23:27:32.430] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:example.js in 0.086 s
+[03Oct2025 23:27:32.458] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_run_up.js in 0.023 s
+[03Oct2025 23:27:32.466] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_run_down.js in 0.002 s
+[03Oct2025 23:27:32.500] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/wall_run.js#1: Loaded Java class 'net.minecraft.world.level.ClipContext'
+[03Oct2025 23:27:32.508] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/wall_run.js#51: Loaded Java class 'net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket'
+[03Oct2025 23:27:32.508] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_run.js in 0.041 s
+[03Oct2025 23:27:32.522] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_climb_small.js in 0.014 s
+[03Oct2025 23:27:32.528] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_climb_move_condition.js in 0.005 s
+[03Oct2025 23:27:32.531] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_climb_condition.js in 0.002 s
+[03Oct2025 23:27:32.542] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_climb.js in 0.011 s
+[03Oct2025 23:27:32.583] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/transform.js in 0.041 s
+[03Oct2025 23:27:32.588] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/store_armor.js in 0.003 s
+[03Oct2025 23:27:32.596] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/stat_ability.js in 0.005 s
+[03Oct2025 23:27:32.619] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/spawn_particles_block.js in 0.022 s
+[03Oct2025 23:27:32.622] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/sounds.js in 0.003 s
+[03Oct2025 23:27:32.657] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/slot_transform.js in 0.034 s
+[03Oct2025 23:27:32.661] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/screen_shake.js in 0.001 s
+[03Oct2025 23:27:32.778] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/rolling_mechanics.js#117: Loaded Java class 'net.minecraft.world.entity.LivingEntity'
+[03Oct2025 23:27:32.779] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/rolling_mechanics.js in 0.117 s
+[03Oct2025 23:27:32.783] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/recharge.js in 0.004 s
+[03Oct2025 23:27:32.784] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/quick_change_wheel_condition.js in 0.0 s
+[03Oct2025 23:27:32.789] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/quick_change.js in 0.0 s
+[03Oct2025 23:27:32.790] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/pyro_surf.js in 0.001 s
+[03Oct2025 23:27:32.797] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/projectile.js#2: Loaded Java class 'net.minecraft.world.phys.Vec3'
+[03Oct2025 23:27:32.799] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/projectile.js in 0.007 s
+[03Oct2025 23:27:32.807] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/predator_vision.js in 0.005 s
+[03Oct2025 23:27:32.812] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/playlist_cycle.js in 0.005 s
+[03Oct2025 23:27:32.823] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/ore_detect.js in 0.011 s
+[03Oct2025 23:27:32.842] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/omnitrix_timer.js in 0.017 s
+[03Oct2025 23:27:32.857] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/omnitrix_cycle_animation.js in 0.014 s
+[03Oct2025 23:27:32.881] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/omnitrix_cycle.js in 0.02 s
+[03Oct2025 23:27:32.883] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/omni_properties.js in 0.001 s
+[03Oct2025 23:27:32.887] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/motion_water.js in 0.0 s
+[03Oct2025 23:27:32.909] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/motion_to_entity.js in 0.02 s
+[03Oct2025 23:27:32.916] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/motion_dash.js in 0.001 s
+[03Oct2025 23:27:32.924] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/motion.js in 0.001 s
+[03Oct2025 23:27:32.935] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/items.js in 0.009 s
+[03Oct2025 23:27:32.938] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/is_alien.js in 0.003 s
+[03Oct2025 23:27:32.938] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/invulnerable.js in 0.0 s
+[03Oct2025 23:27:32.945] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/infinity.js in 0.005 s
+[03Oct2025 23:27:33.079] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/ice_layer.js in 0.134 s
+[03Oct2025 23:27:33.085] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/hunger_fix.js in 0.002 s
+[03Oct2025 23:27:33.100] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/ground_slam.js in 0.015 s
+[03Oct2025 23:27:33.104] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/grapple.js in 0.002 s
+[03Oct2025 23:27:33.107] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/goo_fire.js in 0.003 s
+[03Oct2025 23:27:33.118] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/glow_crystals.js in 0.011 s
+[03Oct2025 23:27:33.123] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/glide.js in 0.005 s
+[03Oct2025 23:27:33.131] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/galvan_blueprints.js in 0.001 s
+[03Oct2025 23:27:33.134] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/freeze_immunity.js in 0.0 s
+[03Oct2025 23:27:33.140] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/flatten.js#1: Loaded Java class 'virtuoel.pehkui.api.ScaleTypes'
+[03Oct2025 23:27:33.140] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/flatten.js in 0.005 s
+[03Oct2025 23:27:33.141] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/fire_immunity.js in 0.001 s
+[03Oct2025 23:27:33.161] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/fire_absorb.js in 0.017 s
+[03Oct2025 23:27:33.162] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/explosion.js in 0.001 s
+[03Oct2025 23:27:33.167] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/entity_damage.js in 0.005 s
+[03Oct2025 23:27:33.174] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/draganoid.js in 0.006 s
+[03Oct2025 23:27:33.181] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/directional_damage.js in 0.006 s
+[03Oct2025 23:27:33.199] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/diamond_creation.js in 0.018 s
+[03Oct2025 23:27:33.205] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/detransform.js in 0.005 s
+[03Oct2025 23:27:33.232] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/decouple.js in 0.027 s
+[03Oct2025 23:27:33.238] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/damage_effect.js in 0.001 s
+[03Oct2025 23:27:33.242] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/cycle_sounds.js in 0.001 s
+[03Oct2025 23:27:33.246] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/current_alien_nickname_condition.js in 0.0 s
+[03Oct2025 23:27:33.265] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/crystal_pillar.js in 0.018 s
+[03Oct2025 23:27:33.281] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/core_removal.js in 0.016 s
+[03Oct2025 23:27:33.285] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/color_modules.js in 0.002 s
+[03Oct2025 23:27:33.293] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/codes.js in 0.004 s
+[03Oct2025 23:27:33.301] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/charge_leap.js in 0.004 s
+[03Oct2025 23:27:33.305] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/bounce.js in 0.004 s
+[03Oct2025 23:27:33.317] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/blocks.js#1: Loaded Java class 'net.minecraft.nbt.CompoundTag'
+[03Oct2025 23:27:33.321] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/blocks.js in 0.013 s
+[03Oct2025 23:27:33.325] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/block_wave.js in 0.004 s
+[03Oct2025 23:27:33.329] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/behind.js in 0.002 s
+[03Oct2025 23:27:33.338] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/astro_powers.js in 0.008 s
+[03Oct2025 23:27:33.340] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/alienevo_watch_condition.js in 0.001 s
+[03Oct2025 23:27:33.341] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/alienevo_color_condition.js in 0.0 s
+[03Oct2025 23:27:33.358] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/alien_codex.js#1: Loaded Java class 'net.minecraft.network.chat.Component'
+[03Oct2025 23:27:33.365] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/alien_codex.js in 0.023 s
+[03Oct2025 23:27:33.368] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/new_ice_block.js in 0.001 s
+[03Oct2025 23:27:33.369] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/leap_vax.js in 0.001 s
+[03Oct2025 23:27:33.372] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/is_mainhand.js in 0.001 s
+[03Oct2025 23:27:33.372] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/freezing_effect.js in 0.0 s
+[03Oct2025 23:27:33.373] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/chroma_leap.js in 0.0 s
+[03Oct2025 23:27:33.376] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/aoe_damage.js in 0.001 s
+[03Oct2025 23:27:33.389] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 77/77 KubeJS startup scripts in 1.57 s with 0 errors and 0 warnings
+[03Oct2025 23:27:33.532] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[03Oct2025 23:27:33.556] [modloading-worker-0/ERROR] [net.threetag.palladium.Palladium/]: Failed to register ability property "%s", type "%s" is not supported
+[03Oct2025 23:27:33.558] [modloading-worker-0/ERROR] [net.threetag.palladium.Palladium/]: Failed to register ability property "%s", type "%s" is not supported
+[03Oct2025 23:27:33.558] [modloading-worker-0/ERROR] [net.threetag.palladium.Palladium/]: Failed to register ability property "%s", type "%s" is not supported
+[03Oct2025 23:27:33.578] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/motion_to_entity.js#6: Loaded Java class 'net.minecraft.world.phys.HitResult'
+[03Oct2025 23:27:33.593] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/motion_to_entity.js#7: Loaded Java class 'net.minecraft.world.entity.decoration.ArmorStand'
+[03Oct2025 23:27:33.604] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/motion_to_entity.js#8: Loaded Java class 'net.minecraft.world.entity.boss.enderdragon.EndCrystal'
+[03Oct2025 23:27:33.638] [modloading-worker-0/ERROR] [net.threetag.palladium.Palladium/]: Failed to register ability property "%s", type "%s" is not supported
+[03Oct2025 23:27:33.717] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[03Oct2025 23:27:33.720] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[03Oct2025 23:27:33.739] [main/INFO] [net.threetag.palladium.Palladium/]: Starting addonpack initialisation...
+[03Oct2025 23:27:33.744] [main/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load pack metadata
+com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
+	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:9) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_10214_(AbstractPackResources.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_5550_(AbstractPackResources.java:33) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_246334_(Pack.java:60) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_245429_(Pack.java:35) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.threetag.palladium.addonpack.forge.AddonPackManagerImpl$ModPackSource.m_7686_(AddonPackManagerImpl.java:49) ~[palladium-4.2.9+1.20.1-forge.jar%23111!/:4.2.9+1.20.1]
+	at net.minecraft.server.packs.repository.PackRepository.m_10526_(PackRepository.java:39) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.repository.PackRepository.m_10506_(PackRepository.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.threetag.palladium.addonpack.AddonPackManager.beginLoading(AddonPackManager.java:136) ~[palladium-4.2.9+1.20.1-forge.jar%23111!/:4.2.9+1.20.1]
+	at net.threetag.palladium.addonpack.AddonPackManager.startLoading(AddonPackManager.java:54) ~[palladium-4.2.9+1.20.1-forge.jar%23111!/:4.2.9+1.20.1]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at net.minecraftforge.fml.DeferredWorkQueue.lambda$makeRunnable$2(DeferredWorkQueue.java:81) ~[fmlcore-1.20.1-47.3.7.jar%23116!/:?]
+	at net.minecraftforge.fml.DeferredWorkQueue.makeRunnable(DeferredWorkQueue.java:76) ~[fmlcore-1.20.1-47.3.7.jar%23116!/:?]
+	at net.minecraftforge.fml.DeferredWorkQueue.lambda$runTasks$0(DeferredWorkQueue.java:60) ~[fmlcore-1.20.1-47.3.7.jar%23116!/:?]
+	at java.util.concurrent.ConcurrentLinkedDeque.forEach(ConcurrentLinkedDeque.java:1650) ~[?:?]
+	at net.minecraftforge.fml.DeferredWorkQueue.runTasks(DeferredWorkQueue.java:60) ~[fmlcore-1.20.1-47.3.7.jar%23116!/:?]
+	at net.minecraftforge.fml.core.ParallelTransition.lambda$finalActivityGenerator$2(ParallelTransition.java:35) ~[forge-1.20.1-47.3.7-universal.jar%23120!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraftforge.fml.ModWorkManager$SyncExecutor.driveOne(ModWorkManager.java:43) ~[fmlcore-1.20.1-47.3.7.jar%23116!/:?]
+	at net.minecraftforge.fml.ModWorkManager$DrivenExecutor.drive(ModWorkManager.java:28) ~[fmlcore-1.20.1-47.3.7.jar%23116!/:?]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:224) ~[fmlcore-1.20.1-47.3.7.jar%23116!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.7.jar%23116!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.7.jar%23116!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23116!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23116!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.7-universal.jar%23120!/:?]
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Oct2025 23:27:33.758] [main/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack mod:minecraft
+[03Oct2025 23:27:33.773] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:architectury as it's not been marked as an addonpack
+[03Oct2025 23:27:33.773] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[03Oct2025 23:27:33.774] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:forge as it's not been marked as an addonpack
+[03Oct2025 23:27:33.775] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[03Oct2025 23:27:33.775] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:geckolib as it's not been marked as an addonpack
+[03Oct2025 23:27:33.775] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[03Oct2025 23:27:33.776] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:kubejs as it's not been marked as an addonpack
+[03Oct2025 23:27:33.776] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[03Oct2025 23:27:33.776] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:palladium as it's not been marked as an addonpack
+[03Oct2025 23:27:33.778] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[03Oct2025 23:27:33.778] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:palladiumcore as it's not been marked as an addonpack
+[03Oct2025 23:27:33.779] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[03Oct2025 23:27:33.780] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:pehkui as it's not been marked as an addonpack
+[03Oct2025 23:27:33.780] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[03Oct2025 23:27:33.781] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:playeranimator as it's not been marked as an addonpack
+[03Oct2025 23:27:33.782] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[03Oct2025 23:27:33.782] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:rhino as it's not been marked as an addonpack
+[03Oct2025 23:27:33.783] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[03Oct2025 23:27:33.786] [main/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: AlienEvo-1.1.1-forge.jar, architectury-9.2.14-forge.jar, forge-1.20.1-47.3.7-universal.jar, geckolib-forge-1.20.1-4.8.2.jar, kubejs-forge-2001.6.5-build.16.jar, palladium-4.2.9+1.20.1-forge.jar, palladiumcore-forge-1.0.1+1.20.1-forge.jar, Pehkui-3.8.2+1.20.1-forge.jar, player-animation-lib-forge-1.0.2-rc1+1.20.jar, rhino-forge-2001.2.3-build.10.jar
+[03Oct2025 23:27:33.826] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 2 addonpack creative_mode_tab
+[03Oct2025 23:27:33.827] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack armor materials
+[03Oct2025 23:27:33.829] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 1 addonpack tool tiers
+[03Oct2025 23:27:33.829] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack block
+[03Oct2025 23:27:33.834] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 49 addonpack item
+[03Oct2025 23:27:33.835] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack suit_set
+[03Oct2025 23:27:33.837] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 29 addonpack particle_type
+[03Oct2025 23:27:33.839] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 1 addonpack point_of_interest_type
+[03Oct2025 23:27:33.839] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 1 addonpack villager_profession
+[03Oct2025 23:27:33.840] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack accessory slots
+[03Oct2025 23:27:33.841] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack accessories
+[03Oct2025 23:27:33.841] [main/INFO] [net.threetag.palladium.Palladium/]: Finished addonpack initialisation!
+[03Oct2025 23:27:34.501] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/team30/servidor_minecraft/config/pehkui-common.toml is not correct. Correcting
+[03Oct2025 23:27:34.504] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:34.504] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledFallDamage was corrected from null to its default, true. 
+[03Oct2025 23:27:34.505] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledMotion was corrected from null to its default, true. 
+[03Oct2025 23:27:34.505] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledReach was corrected from null to its default, true. 
+[03Oct2025 23:27:34.506] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledAttack was corrected from null to its default, true. 
+[03Oct2025 23:27:34.509] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledDefense was corrected from null to its default, true. 
+[03Oct2025 23:27:34.509] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledHealth was corrected from null to its default, true. 
+[03Oct2025 23:27:34.509] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledItemDrops was corrected from null to its default, true. 
+[03Oct2025 23:27:34.510] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledProjectiles was corrected from null to its default, true. 
+[03Oct2025 23:27:34.511] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledExplosions was corrected from null to its default, true. 
+[03Oct2025 23:27:34.511] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.keepAllScalesOnRespawn was corrected from null to its default, false. 
+[03Oct2025 23:27:34.512] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.accurateNetherPortals was corrected from null to its default, true. 
+[03Oct2025 23:27:34.512] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scalesKeptOnRespawn was corrected from null to its default, []. 
+[03Oct2025 23:27:34.513] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.enableCommands was corrected from null to its default, true. 
+[03Oct2025 23:27:34.514] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.enableDebugCommands was corrected from null to its default, false. 
+[03Oct2025 23:27:34.568] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/glow_crystals.js#3: Loaded Java class 'dev.latvian.mods.kubejs.item.custom.BasicItemJS$Builder'
+[03Oct2025 23:27:35.305] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[03Oct2025 23:27:36.036] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[03Oct2025 23:27:36.036] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [palladium] Starting version check at https://squirrelcontrol.threetag.net/api/forge_updates/threetag-palladium
+[03Oct2025 23:27:36.674] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [palladium] Found status: OUTDATED Current: 4.2.9 Target: 4.3.0
+[03Oct2025 23:27:37.809] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03Oct2025 23:27:39.341] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/team30/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23115!/assets/.mcassetsroot' uses unexpected schema
+[03Oct2025 23:27:39.343] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/team30/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23115!/data/.mcassetsroot' uses unexpected schema
+[03Oct2025 23:27:39.344] [main/ERROR] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: File /addon/.mcassetsroot does not exist in classpath
+[03Oct2025 23:27:39.434] [main/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load pack metadata
+com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
+	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:9) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_10214_(AbstractPackResources.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_5550_(AbstractPackResources.java:33) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_246334_(Pack.java:60) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_245429_(Pack.java:35) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.threetag.palladium.addonpack.forge.AddonPackManagerImpl$ModPackSource.m_7686_(AddonPackManagerImpl.java:49) ~[palladium-4.2.9+1.20.1-forge.jar%23111!/:4.2.9+1.20.1]
+	at net.minecraft.server.packs.repository.PackRepository.m_10526_(PackRepository.java:39) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.packs.repository.PackRepository.m_10506_(PackRepository.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at dev.latvian.mods.kubejs.script.ScriptManager.handler$zin000$loadFromDirectory(ScriptManager.java:537) ~[kubejs-forge-2001.6.5-build.16.jar%23110!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.script.ScriptManager.loadFromDirectory(ScriptManager.java:150) ~[kubejs-forge-2001.6.5-build.16.jar%23110!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.script.ScriptManager.reload(ScriptManager.java:72) ~[kubejs-forge-2001.6.5-build.16.jar%23110!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.server.ServerScriptManager.wrapResourceManager(ServerScriptManager.java:85) ~[kubejs-forge-2001.6.5-build.16.jar%23110!/:2001.6.5-build.16]
+	at net.minecraft.server.WorldLoader$PackConfig.localvar$zbd000$injectKubeJSPacks(WorldLoader.java:515) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.WorldLoader$PackConfig.m_214399_(WorldLoader.java:80) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.WorldLoader.m_214362_(WorldLoader.java:28) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.Main.lambda$main$2(Main.java:167) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:777) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Oct2025 23:27:39.438] [main/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack mod:minecraft
+[03Oct2025 23:27:39.496] [main/INFO] [KubeJS Server/]: example.js#5: Hello, World! (Loaded server scripts)
+[03Oct2025 23:27:39.497] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:example.js in 0.001 s
+[03Oct2025 23:27:39.499] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/xp.js in 0.001 s
+[03Oct2025 23:27:39.502] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/workbench_items.js in 0.003 s
+[03Oct2025 23:27:39.537] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/workbench.js in 0.033 s
+[03Oct2025 23:27:39.544] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/slam.js#3: Loaded Java class 'net.minecraft.core.particles.DustParticleOptions'
+[03Oct2025 23:27:39.546] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/slam.js#4: Loaded Java class 'org.joml.Vector3f'
+[03Oct2025 23:27:39.547] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/slam.js in 0.01 s
+[03Oct2025 23:27:39.551] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/server_stuff.js in 0.003 s
+[03Oct2025 23:27:39.552] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/ride.js in 0.001 s
+[03Oct2025 23:27:39.555] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/recipes.js in 0.0 s
+[03Oct2025 23:27:39.562] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/quick_change.js in 0.007 s
+[03Oct2025 23:27:39.565] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/pod_loot.js in 0.003 s
+[03Oct2025 23:27:39.584] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/playlist_command.js in 0.018 s
+[03Oct2025 23:27:39.589] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/palladium_properties.js in 0.004 s
+[03Oct2025 23:27:39.590] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/nickname_command.js in 0.0 s
+[03Oct2025 23:27:39.606] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/level_command.js in 0.014 s
+[03Oct2025 23:27:39.616] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/hit.js#101: Loaded Java class 'net.minecraft.world.entity.LivingEntity'
+[03Oct2025 23:27:39.620] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/hit.js#102: Loaded Java class 'net.minecraft.world.entity.decoration.ArmorStand'
+[03Oct2025 23:27:39.625] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/hit.js#103: Loaded Java class 'net.minecraft.world.entity.projectile.Projectile'
+[03Oct2025 23:27:39.627] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/hit.js#145: Loaded Java class 'net.minecraft.resources.ResourceKey'
+[03Oct2025 23:27:39.628] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/hit.js#146: Loaded Java class 'net.minecraft.tags.TagKey'
+[03Oct2025 23:27:39.629] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/hit.js in 0.021 s
+[03Oct2025 23:27:39.630] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/fall.js in 0.001 s
+[03Oct2025 23:27:39.637] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/failsafe.js in 0.006 s
+[03Oct2025 23:27:39.640] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/color_commands.js in 0.002 s
+[03Oct2025 23:27:39.643] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/code_hints.js in 0.001 s
+[03Oct2025 23:27:39.646] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/break_block.js in 0.002 s
+[03Oct2025 23:27:39.647] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/behind.js in 0.0 s
+[03Oct2025 23:27:39.651] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/attributes.js#1: Loaded Java class 'net.minecraft.world.entity.ai.attributes.Attributes'
+[03Oct2025 23:27:39.658] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/attributes.js in 0.006 s
+[03Oct2025 23:27:39.662] [main/INFO] [KubeJS Server/]: Loaded 22/22 KubeJS server scripts in 0.198 s with 0 errors and 0 warnings
+[03Oct2025 23:27:39.665] [main/INFO] [KubeJS Server/]: Scripts loaded
+[03Oct2025 23:27:39.695] [main/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2025 23:27:41.779] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag alienevo:evoastra as it is missing following references: ad_astra:oxygen (from AlienEvo-1.1.1-forge.jar)
+[03Oct2025 23:27:41.847] [Worker-Main-1/INFO] [KubeJS Server/]: [minecraft:item] Found 308 tags, added 4 objects, removed 0 objects
+[03Oct2025 23:27:42.015] [Worker-Main-1/INFO] [KubeJS Server/]: [minecraft:block] Found 294 tags, added 13 objects, removed 0 objects
+[03Oct2025 23:27:43.418] [main/INFO] [net.threetag.palladium.Palladium/]: Loaded 0 loot table modifications
+[03Oct2025 23:27:43.462] [main/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2025 23:27:43.609] [main/INFO] [KubeJS Server/]: Found 1228 recipes in 143.3 ms
+[03Oct2025 23:27:43.616] [main/INFO] [KubeJS Server/]: Posted recipe events in 5.065 ms
+[03Oct2025 23:27:43.766] [main/INFO] [KubeJS Server/]: Added 5 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes in 144.8 ms
+[03Oct2025 23:27:44.114] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1321 advancements
+[03Oct2025 23:27:44.160] [main/WARN] [net.threetag.palladium.Palladium/]: 'under_water' condition found, please use 'is_under_water' instead!
+[03Oct2025 23:27:44.185] [main/ERROR] [net.threetag.palladium.Palladium/]: Parsing error loading power alienevo:code_power_test
+com.google.gson.JsonParseException: Ability 'alienevo:generate_random' does not exist!
+	at net.threetag.palladium.power.ability.AbilityConfiguration.fromJSON(AbilityConfiguration.java:192) ~[palladium-4.2.9+1.20.1-forge.jar%23111!/:4.2.9+1.20.1]
+	at net.threetag.palladium.power.Power.fromJSON(Power.java:186) ~[palladium-4.2.9+1.20.1-forge.jar%23111!/:4.2.9+1.20.1]
+	at net.threetag.palladium.power.PowerManager.lambda$apply$3(PowerManager.java:82) ~[palladium-4.2.9+1.20.1-forge.jar%23111!/:4.2.9+1.20.1]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.threetag.palladium.power.PowerManager.apply(PowerManager.java:80) ~[palladium-4.2.9+1.20.1-forge.jar%23111!/:4.2.9+1.20.1]
+	at net.threetag.palladium.power.PowerManager.m_5787_(PowerManager.java:31) ~[palladium-4.2.9+1.20.1-forge.jar%23111!/:4.2.9+1.20.1]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Oct2025 23:27:44.245] [main/INFO] [net.threetag.palladium.Palladium/]: Loaded 62 powers
+[03Oct2025 23:27:44.248] [main/INFO] [net.threetag.palladium.Palladium/]: Loaded 1 item powers
+[03Oct2025 23:27:44.249] [main/INFO] [net.threetag.palladium.Palladium/]: Loaded 0 suit set powers
+[03Oct2025 23:27:44.250] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 69 objectives to be tracked
+[03Oct2025 23:27:45.451] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[03Oct2025 23:27:45.452] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[03Oct2025 23:27:45.453] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[03Oct2025 23:27:45.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03Oct2025 23:27:45.777] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[03Oct2025 23:27:45.828] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[03Oct2025 23:27:46.054] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03Oct2025 23:27:46.057] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[03Oct2025 23:27:46.057] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03Oct2025 23:27:46.057] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[03Oct2025 23:27:46.105] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/pehkui-server.toml is not correct. Correcting
+[03Oct2025 23:27:46.106] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.107] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.108] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.base was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.110] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.base.minimum was corrected from null to its default, 1.2621774483536189E-29. 
+[03Oct2025 23:27:46.111] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.base.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.114] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.width was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.116] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.width.minimum was corrected from null to its default, 1.2621774483536189E-29. 
+[03Oct2025 23:27:46.117] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.width.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.121] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.height was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.122] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.height.minimum was corrected from null to its default, 1.2621774483536189E-29. 
+[03Oct2025 23:27:46.124] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.height.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.124] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.eye_height was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.125] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.eye_height.minimum was corrected from null to its default, 1.2621774483536189E-29. 
+[03Oct2025 23:27:46.126] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.eye_height.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.hitbox_width was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.130] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.hitbox_width.minimum was corrected from null to its default, 1.2621774483536189E-29. 
+[03Oct2025 23:27:46.134] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.hitbox_width.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.134] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.hitbox_height was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.134] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.hitbox_height.minimum was corrected from null to its default, 1.2621774483536189E-29. 
+[03Oct2025 23:27:46.138] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.hitbox_height.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.138] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.interaction_box_width was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.138] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.interaction_box_width.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.142] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.interaction_box_width.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.142] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.interaction_box_height was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.143] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.interaction_box_height.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.interaction_box_height.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.146] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.model_width was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.148] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.model_width.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.151] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.model_width.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.151] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.model_height was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.152] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.model_height.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.154] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.model_height.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.157] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.third_person was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.157] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.third_person.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.158] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.third_person.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.160] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.motion was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.162] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.motion.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.164] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.motion.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.falling was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.falling.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.falling.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.step_height was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.step_height.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.step_height.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.view_bobbing was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.view_bobbing.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.view_bobbing.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.181] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.visibility was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.181] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.visibility.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.visibility.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.jump_height was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.jump_height.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.jump_height.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.flight was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.flight.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.flight.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.reach was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.reach.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.reach.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.200] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.block_reach was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.203] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.block_reach.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.205] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.block_reach.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.212] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.entity_reach was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.215] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.entity_reach.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.218] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.entity_reach.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.222] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.mining_speed was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.223] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.mining_speed.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.223] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.mining_speed.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.224] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.attack_speed was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.227] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.attack_speed.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.231] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.attack_speed.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.233] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.knockback was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.235] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.knockback.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.237] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.knockback.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.238] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.attack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.241] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.attack.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.243] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.attack.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.246] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.defense was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.247] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.defense.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.249] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.defense.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.251] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.health was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.255] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.health.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.256] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.health.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.256] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.drops was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.259] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.drops.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.drops.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.held_item was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.263] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.held_item.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.264] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.held_item.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.266] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.projectiles was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.268] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.projectiles.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.270] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.projectiles.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.272] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.explosions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.explosions.minimum was corrected from null to its default, 1.401298464324817E-45. 
+[03Oct2025 23:27:46.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.explosions.maximum was corrected from null to its default, 3.4028234663852886E38. 
+[03Oct2025 23:27:46.316] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/palladium-server.toml is not correct. Correcting
+[03Oct2025 23:27:46.318] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.318] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.experimentalFeatures was corrected from null to its default, false. 
+[03Oct2025 23:27:46.321] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:27:46.322] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.redstoneFluxCrystalGeneration was corrected from null to its default, true. 
+[03Oct2025 23:27:46.443] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[03Oct2025 23:27:53.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03Oct2025 23:27:53.499] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2025 23:27:59.402] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:27:59.403] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:27:59.404] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:27:59.405] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:27:59.406] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:27:59.407] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:27:59.410] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:27:59.415] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:27:59.418] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:27:59.423] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:27:59.428] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:27:59.430] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:27:59.488] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:28:00.383] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:28:00.706] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:28:01.326] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:28:01.575] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:28:02.018] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:28:02.488] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:28:02.988] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:28:05.635] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:28:05.636] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:28:05.637] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:28:05.637] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:28:05.638] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:28:06.182] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:28:06.488] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[03Oct2025 23:28:07.332] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
+[03Oct2025 23:28:07.545] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
+[03Oct2025 23:28:07.991] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Oct2025 23:28:08.495] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Oct2025 23:28:08.999] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Oct2025 23:28:09.567] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Oct2025 23:28:10.049] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Oct2025 23:28:10.201] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 16714 ms
+[03Oct2025 23:28:10.201] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (24.105s)! For help, type "help"
+[03Oct2025 23:28:10.238] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[03Oct2025 23:28:13.538] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[03Oct2025 23:29:55.169] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ghost2026yT[/100.67.52.59:40182] logged in with entity id 239 at (81.5, 78.0, -146.5)
+[03Oct2025 23:29:55.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT joined the game
+[03Oct2025 23:30:55.292] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ghost2026yT lost connection: Timed out
+[03Oct2025 23:30:55.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT left the game
+[03Oct2025 23:30:55.374] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[03Oct2025 23:31:12.544] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ghost2026yT[/100.67.52.59:45208] logged in with entity id 395 at (81.5, 78.0, -146.5)
+[03Oct2025 23:31:12.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT joined the game
+[03Oct2025 23:32:58.315] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ghost2026yT was kicked for floating too long!
+[03Oct2025 23:32:58.317] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ghost2026yT lost connection: Disconnected
+[03Oct2025 23:32:58.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT left the game
+[03Oct2025 23:32:58.481] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[03Oct2025 23:33:00.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[03Oct2025 23:33:00.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <--[HERE]
+[03Oct2025 23:33:20.707] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ghost2026yT[/100.67.52.59:57494] logged in with entity id 678 at (84.48106805716913, 44.62595791899085, -192.94636685396705)
+[03Oct2025 23:33:20.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT joined the game
+[03Oct2025 23:33:23.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT fell from a high place
+[03Oct2025 23:33:32.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Ghost2026yT a server operator
+[03Oct2025 23:33:42.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Set own game mode to Creative Mode]
+[03Oct2025 23:35:55.380] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element alienevo:crash_site took 1086 ms
+[03Oct2025 23:36:42.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -1183.500000, 67.000000, -2783.500000]
+[03Oct2025 23:36:42.840] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3412ms or 68 ticks behind
+[03Oct2025 23:36:45.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Set own game mode to Spectator Mode]
+[03Oct2025 23:36:47.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT has made the advancement [Crash Course]
+[03Oct2025 23:36:55.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Set own game mode to Creative Mode]
