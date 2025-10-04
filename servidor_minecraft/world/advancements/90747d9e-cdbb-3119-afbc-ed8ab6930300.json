@@ -1620,6 +1620,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2025-10-04 12:28:01 +0000"
+    },
+    "done": true
+  },
   "alienevo:recipes/omnitrix_workbench": {
     "criteria": {
       "has_upgrade_crystal": "2025-10-04 12:16:31 +0000"
@@ -1638,15 +1644,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-10-04 12:28:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/bamboo_chest_raft": {
     "criteria": {
       "has_boat": "2025-10-04 12:09:31 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2025-10-04 12:28:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/white_dye": {
     "criteria": {
       "has_bone_meal": "2025-10-04 12:00:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2025-10-04 12:28:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-10-04 12:28:01 +0000"
     },
     "done": true
   },
@@ -1668,6 +1698,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2025-10-04 12:28:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_chest_boat": {
     "criteria": {
       "has_boat": "2025-10-04 12:09:31 +0000"
@@ -1680,6 +1716,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2025-10-04 12:23:17 +0000"
+    },
+    "done": true
+  },
   "alienevo:recipes/galvan_metal": {
     "criteria": {
       "has_galvan_scrap": "2025-10-04 12:16:32 +0000"
@@ -1689,6 +1731,12 @@
   "minecraft:recipes/transportation/mangrove_chest_boat": {
     "criteria": {
       "has_boat": "2025-10-04 12:09:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2025-10-04 12:28:01 +0000"
     },
     "done": true
   },
@@ -1710,6 +1758,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2025-10-04 12:28:01 +0000"
+    },
+    "done": true
+  },
   "alienevo:recipes/galvan_pod": {
     "criteria": {
       "has_galvan_scrap": "2025-10-04 12:16:32 +0000"
@@ -1728,9 +1782,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-10-04 12:28:01 +0000"
+    },
+    "done": true
+  },
   "alienevo:recipes/machined_metal": {
     "criteria": {
       "has_upgrade_shard": "2025-10-04 12:16:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2025-10-04 12:23:17 +0000"
     },
     "done": true
   },
