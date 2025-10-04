@@ -1130,6 +1130,12 @@
     },
     "done": true
   },
+  "alienevo:discover_pod": {
+    "criteria": {
+      "find_pod": "2025-10-04 13:35:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/acacia_door": {
     "criteria": {
       "has_planks": "2025-10-04 13:24:16 +0000"
@@ -1145,6 +1151,12 @@
   "minecraft:recipes/redstone/acacia_fence_gate": {
     "criteria": {
       "has_planks": "2025-10-04 13:24:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-10-04 13:30:21 +0000"
     },
     "done": true
   },
