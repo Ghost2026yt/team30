@@ -431,3 +431,11 @@ com.google.gson.JsonParseException: Ability 'alienevo:generate_random' does not 
 [04Oct2025 16:00:45.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: muela left the game
 [04Oct2025 16:04:05.718] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/12279, l='ServerLevel[world]', x=-531.42, y=69.00, z=2417.05] died, message: 'Villager was slain by Zombie'
 [04Oct2025 16:04:56.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -281.500000, 71.500000, 1083.500000]
+[04Oct2025 16:14:51.284] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: muela[/100.116.191.5:48598] logged in with entity id 15706 at (-297.9277152754232, 79.0, 1155.4653789852164)
+[04Oct2025 16:14:51.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: muela joined the game
+[04Oct2025 16:16:19.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: muela drowned
+[04Oct2025 16:17:30.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to 370.500000, 64.500000, -1313.500000]
+[04Oct2025 16:17:30.949] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3124ms or 62 ticks behind
+[04Oct2025 16:17:52.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -281.500000, 71.500000, 1083.500000]
+[04Oct2025 16:21:01.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT has made the advancement [Ice Bucket Challenge]
+[04Oct2025 16:21:22.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -281.500000, 71.500000, 1083.500000]

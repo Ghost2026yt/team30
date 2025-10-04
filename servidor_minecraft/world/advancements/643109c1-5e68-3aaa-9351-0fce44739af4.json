@@ -1493,21 +1493,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_planks": {
-    "criteria": {
-      "has_logs": "2025-10-04 15:42:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/sugar_from_sugar_cane": {
-    "criteria": {
-      "has_sugar_cane": "2025-10-04 15:46:29 +0000"
-    },
-    "done": true
-  },
   "alienevo:discover_priory": {
     "criteria": {
       "find_priory": "2025-10-04 15:39:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-10-04 15:42:26 +0000"
     },
     "done": true
   },
@@ -1517,15 +1511,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/paper": {
-    "criteria": {
-      "has_reeds": "2025-10-04 15:46:29 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stripped_spruce_wood": {
     "criteria": {
       "has_log": "2025-10-04 15:42:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-10-04 15:46:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-10-04 15:46:29 +0000"
     },
     "done": true
   },

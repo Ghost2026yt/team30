@@ -588,7 +588,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "bread": "2025-10-04 00:24:35 +0000"
+      "bread": "2025-10-04 00:24:35 +0000",
+      "golden_carrot": "2025-10-04 16:18:58 +0000"
     },
     "done": false
   },
@@ -2200,6 +2201,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-10-04 16:20:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
       "has_spider_eye": "2025-10-04 15:49:01 +0000"
@@ -2227,6 +2234,12 @@
   "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-10-04 15:43:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-10-04 16:21:01 +0000"
     },
     "done": true
   },
@@ -2281,6 +2294,12 @@
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-10-04 15:43:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-10-04 16:21:01 +0000"
     },
     "done": true
   },
