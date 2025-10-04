@@ -16,6 +16,7 @@
       "minecraft:beach": "2025-10-04 00:24:04 +0000",
       "minecraft:river": "2025-10-04 00:22:10 +0000",
       "minecraft:dripstone_caves": "2025-10-04 13:02:33 +0000",
+      "minecraft:forest": "2025-10-04 13:55:51 +0000",
       "minecraft:meadow": "2025-10-04 00:17:50 +0000",
       "minecraft:savanna": "2025-10-04 12:49:34 +0000",
       "minecraft:plains": "2025-10-04 00:08:43 +0000"
@@ -980,6 +981,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-10-04 13:55:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-10-04 13:02:42 +0000"
@@ -1010,6 +1017,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-10-04 13:54:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2025-10-04 12:57:50 +0000"
@@ -1031,6 +1044,12 @@
   "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-10-04 13:36:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-10-04 13:55:26 +0000"
     },
     "done": true
   },
@@ -1061,6 +1080,12 @@
   "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-10-04 13:36:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-10-04 13:54:18 +0000"
     },
     "done": true
   },
@@ -1100,6 +1125,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-10-04 13:56:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-10-04 13:55:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-10-04 13:02:42 +0000"
@@ -1115,6 +1152,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone": {
     "criteria": {
       "has_blackstone": "2025-10-04 13:36:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-10-04 13:56:04 +0000"
     },
     "done": true
   },
@@ -1142,9 +1185,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-10-04 13:56:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_andesite": "2025-10-04 13:02:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-10-04 13:55:32 +0000"
     },
     "done": true
   },
@@ -1211,6 +1266,12 @@
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-10-04 13:02:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-10-04 13:56:04 +0000"
     },
     "done": true
   },
@@ -1286,6 +1347,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-10-04 13:46:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/andesite_wall": {
     "criteria": {
       "has_andesite": "2025-10-04 13:02:42 +0000"
@@ -1319,6 +1386,12 @@
   "alienevo:discover_pod": {
     "criteria": {
       "find_pod": "2025-10-04 13:35:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-10-04 13:56:04 +0000"
     },
     "done": true
   },
@@ -1394,6 +1467,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-10-04 13:56:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-10-04 13:36:59 +0000"
@@ -1403,6 +1482,12 @@
   "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-10-04 13:36:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-10-04 13:56:04 +0000"
     },
     "done": true
   },
