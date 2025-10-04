@@ -445,3 +445,10 @@ com.google.gson.JsonParseException: Ability 'alienevo:generate_random' does not 
 [04Oct2025 16:26:21.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: muela moved too quickly! -4.533415930276419,-2.0,-8.73480602282416
 [04Oct2025 16:26:21.666] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5490ms or 109 ticks behind
 [04Oct2025 16:28:30.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [muela: Teleported muela to -146.500000, 49.500000, 1116.500000]
+[04Oct2025 16:36:06.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT has made the advancement [A Terrible Fortress]
+[04Oct2025 16:37:42.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT has made the advancement [Into Fire]
+[04Oct2025 16:44:52.704] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ghost2026yT was kicked for floating too long!
+[04Oct2025 16:44:52.748] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ghost2026yT lost connection: Flying is not enabled on this server
+[04Oct2025 16:44:52.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT left the game
+[04Oct2025 16:45:06.929] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ghost2026yT[/100.67.52.59:40326] logged in with entity id 24901 at (-562.7377328984417, 59.00133597911215, 366.86216332297874)
+[04Oct2025 16:45:07.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT joined the game
