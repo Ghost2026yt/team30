@@ -20,10 +20,12 @@
       "minecraft:birch_forest": "2025-10-04 12:12:14 +0000",
       "minecraft:savanna_plateau": "2025-10-04 12:15:11 +0000",
       "minecraft:beach": "2025-10-04 00:31:04 +0000",
+      "minecraft:sparse_jungle": "2025-10-04 13:17:51 +0000",
       "minecraft:river": "2025-10-04 00:26:35 +0000",
       "minecraft:snowy_plains": "2025-10-04 00:31:49 +0000",
       "minecraft:stony_shore": "2025-10-04 00:32:11 +0000",
       "minecraft:snowy_taiga": "2025-10-04 00:41:38 +0000",
+      "minecraft:dripstone_caves": "2025-10-04 13:20:30 +0000",
       "minecraft:grove": "2025-10-04 00:34:27 +0000",
       "minecraft:cold_ocean": "2025-10-04 12:10:14 +0000",
       "minecraft:forest": "2025-10-04 12:12:26 +0000",
@@ -1680,9 +1682,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_boots": "2025-10-04 13:18:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/white_dye": {
     "criteria": {
       "has_bone_meal": "2025-10-04 12:00:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-10-04 13:25:23 +0000"
     },
     "done": true
   },
@@ -1695,6 +1709,12 @@
   "minecraft:recipes/decorations/item_frame": {
     "criteria": {
       "has_leather": "2025-10-04 13:13:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_boots": "2025-10-04 13:18:09 +0000"
     },
     "done": true
   },
@@ -1716,9 +1736,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-10-04 13:25:23 +0000"
+    },
+    "done": true
+  },
   "alienevo:recipes/upgrade_chip": {
     "criteria": {
       "has_galvan_metal": "2025-10-04 12:16:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-10-04 13:25:23 +0000"
     },
     "done": true
   },
@@ -1800,6 +1832,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-10-04 13:25:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/oak_chest_boat": {
     "criteria": {
       "has_boat": "2025-10-04 12:09:31 +0000"
@@ -1836,6 +1874,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-10-04 13:25:23 +0000"
+    },
+    "done": true
+  },
   "alienevo:recipes/machined_metal": {
     "criteria": {
       "has_upgrade_shard": "2025-10-04 12:16:31 +0000"
@@ -1857,6 +1901,12 @@
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2025-10-04 13:13:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-10-04 13:25:23 +0000"
     },
     "done": true
   },
