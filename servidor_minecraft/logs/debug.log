@@ -1919,3 +1919,16 @@ com.google.gson.JsonParseException: Ability 'alienevo:generate_random' does not 
 [04Oct2025 12:55:46.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <muela> voy a agarrar este pico de hierro
 [04Oct2025 12:55:50.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: muela has made the advancement [Isn't It Iron Pick]
 [04Oct2025 12:55:50.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ghost2026yT> dale
+[04Oct2025 12:56:16.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -281.500000, 71.500000, 1083.500000]
+[04Oct2025 12:56:20.308] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Oct2025 12:56:20.326] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Oct2025 12:56:34.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to 399.500000, 64.500000, 51.500000]
+[04Oct2025 12:59:01.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to 220.500000, -47.500000, -26.500000]
+[04Oct2025 12:59:17.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -281.500000, 71.500000, 1083.500000]
+[04Oct2025 12:59:29.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to 220.500000, -47.500000, -26.500000]
+[04Oct2025 13:01:20.281] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Oct2025 13:01:20.287] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Oct2025 13:03:50.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to 399.500000, 64.500000, 51.500000]
+[04Oct2025 13:04:54.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -281.500000, 71.500000, 1083.500000]
+[04Oct2025 13:06:20.279] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Oct2025 13:06:20.289] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
