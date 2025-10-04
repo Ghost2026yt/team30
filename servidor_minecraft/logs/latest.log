@@ -1,32 +1,32 @@
-[04Oct2025 11:30:45.627] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[04Oct2025 11:30:45.631] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[04Oct2025 11:30:46.076] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[04Oct2025 11:30:46.161] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/team30/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[04Oct2025 11:30:46.595] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/team30/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[04Oct2025 11:30:46.599] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/team30/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Oct2025 11:30:46.603] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/team30/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Oct2025 11:30:46.611] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/team30/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Oct2025 11:30:47.240] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[04Oct2025 11:30:50.169] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[04Oct2025 11:30:50.208] [main/ERROR] [mixin/]: Mixin config palladiumcore-common.mixins.json does not specify "minVersion" property
-[04Oct2025 11:30:50.210] [main/ERROR] [mixin/]: Mixin config palladiumcore.mixins.json does not specify "minVersion" property
-[04Oct2025 11:30:50.231] [main/ERROR] [mixin/]: Mixin config alienevo-common.mixins.json does not specify "minVersion" property
-[04Oct2025 11:30:50.233] [main/ERROR] [mixin/]: Mixin config alienevo.mixins.json does not specify "minVersion" property
-[04Oct2025 11:30:50.264] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[04Oct2025 11:30:53.389] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[04Oct2025 11:31:00.234] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin::handler$zbe000$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[04Oct2025 11:31:04.818] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
-[04Oct2025 11:31:04.819] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
-[04Oct2025 11:31:04.837] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
-[04Oct2025 11:31:04.845] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
-[04Oct2025 11:31:04.860] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
-[04Oct2025 11:31:04.864] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
-[04Oct2025 11:31:04.864] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source palladium
-[04Oct2025 11:31:04.926] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[04Oct2025 11:31:05.055] [modloading-worker-0/INFO] [KubeJS/]: Done in 217.6 ms
-[04Oct2025 11:31:05.364] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[04Oct2025 11:31:05.366] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[04Oct2025 11:31:05.534] [modloading-worker-0/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load pack metadata
+[04Oct2025 11:55:20.240] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[04Oct2025 11:55:20.246] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[04Oct2025 11:55:20.646] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[04Oct2025 11:55:20.740] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/team30/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[04Oct2025 11:55:21.357] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/team30/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[04Oct2025 11:55:21.363] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/team30/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Oct2025 11:55:21.367] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/team30/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Oct2025 11:55:21.370] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/team30/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Oct2025 11:55:21.740] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[04Oct2025 11:55:24.983] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04Oct2025 11:55:25.025] [main/ERROR] [mixin/]: Mixin config palladiumcore-common.mixins.json does not specify "minVersion" property
+[04Oct2025 11:55:25.031] [main/ERROR] [mixin/]: Mixin config palladiumcore.mixins.json does not specify "minVersion" property
+[04Oct2025 11:55:25.048] [main/ERROR] [mixin/]: Mixin config alienevo-common.mixins.json does not specify "minVersion" property
+[04Oct2025 11:55:25.050] [main/ERROR] [mixin/]: Mixin config alienevo.mixins.json does not specify "minVersion" property
+[04Oct2025 11:55:25.077] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[04Oct2025 11:55:28.558] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[04Oct2025 11:55:35.075] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin::handler$zbe000$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[04Oct2025 11:55:39.857] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[04Oct2025 11:55:39.859] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[04Oct2025 11:55:39.875] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[04Oct2025 11:55:39.895] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[04Oct2025 11:55:39.923] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
+[04Oct2025 11:55:39.925] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[04Oct2025 11:55:39.926] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[04Oct2025 11:55:39.926] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source palladium
+[04Oct2025 11:55:40.063] [modloading-worker-0/INFO] [KubeJS/]: Done in 184.9 ms
+[04Oct2025 11:55:40.362] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[04Oct2025 11:55:40.363] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[04Oct2025 11:55:40.648] [modloading-worker-0/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load pack metadata
 com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
 	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
@@ -57,109 +57,109 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[04Oct2025 11:31:05.538] [modloading-worker-0/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack mod:minecraft
-[04Oct2025 11:31:05.695] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
-[04Oct2025 11:31:05.699] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
-[04Oct2025 11:31:05.709] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
-[04Oct2025 11:31:05.922] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.227 s
-[04Oct2025 11:31:06.569] [modloading-worker-0/INFO] [KubeJS Startup/]: example.js#5: Hello, World! (Loaded startup scripts)
-[04Oct2025 11:31:06.575] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:example.js in 0.087 s
-[04Oct2025 11:31:06.592] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_run_up.js in 0.017 s
-[04Oct2025 11:31:06.593] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_run_down.js in 0.001 s
-[04Oct2025 11:31:06.617] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/wall_run.js#1: Loaded Java class 'net.minecraft.world.level.ClipContext'
-[04Oct2025 11:31:06.719] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/wall_run.js#51: Loaded Java class 'net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket'
-[04Oct2025 11:31:06.720] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_run.js in 0.124 s
-[04Oct2025 11:31:06.733] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_climb_small.js in 0.013 s
-[04Oct2025 11:31:06.735] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_climb_move_condition.js in 0.0 s
-[04Oct2025 11:31:06.736] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_climb_condition.js in 0.0 s
-[04Oct2025 11:31:06.747] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_climb.js in 0.008 s
-[04Oct2025 11:31:06.773] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/transform.js in 0.025 s
-[04Oct2025 11:31:06.783] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/store_armor.js in 0.007 s
-[04Oct2025 11:31:06.793] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/stat_ability.js in 0.007 s
-[04Oct2025 11:31:06.826] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/spawn_particles_block.js in 0.03 s
-[04Oct2025 11:31:06.827] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/sounds.js in 0.001 s
-[04Oct2025 11:31:06.886] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/slot_transform.js in 0.054 s
-[04Oct2025 11:31:06.889] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/screen_shake.js in 0.002 s
-[04Oct2025 11:31:07.003] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/rolling_mechanics.js#117: Loaded Java class 'net.minecraft.world.entity.LivingEntity'
-[04Oct2025 11:31:07.006] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/rolling_mechanics.js in 0.114 s
-[04Oct2025 11:31:07.010] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/recharge.js in 0.004 s
-[04Oct2025 11:31:07.010] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/quick_change_wheel_condition.js in 0.0 s
-[04Oct2025 11:31:07.011] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/quick_change.js in 0.0 s
-[04Oct2025 11:31:07.014] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/pyro_surf.js in 0.003 s
-[04Oct2025 11:31:07.021] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/projectile.js#2: Loaded Java class 'net.minecraft.world.phys.Vec3'
-[04Oct2025 11:31:07.023] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/projectile.js in 0.006 s
-[04Oct2025 11:31:07.031] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/predator_vision.js in 0.008 s
-[04Oct2025 11:31:07.035] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/playlist_cycle.js in 0.001 s
-[04Oct2025 11:31:07.046] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/ore_detect.js in 0.011 s
-[04Oct2025 11:31:07.064] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/omnitrix_timer.js in 0.017 s
-[04Oct2025 11:31:07.077] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/omnitrix_cycle_animation.js in 0.008 s
-[04Oct2025 11:31:07.095] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/omnitrix_cycle.js in 0.018 s
-[04Oct2025 11:31:07.096] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/omni_properties.js in 0.001 s
-[04Oct2025 11:31:07.101] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/motion_water.js in 0.005 s
-[04Oct2025 11:31:07.115] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/motion_to_entity.js in 0.014 s
-[04Oct2025 11:31:07.118] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/motion_dash.js in 0.001 s
-[04Oct2025 11:31:07.123] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/motion.js in 0.001 s
-[04Oct2025 11:31:07.131] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/items.js in 0.008 s
-[04Oct2025 11:31:07.132] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/is_alien.js in 0.0 s
-[04Oct2025 11:31:07.137] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/invulnerable.js in 0.001 s
-[04Oct2025 11:31:07.141] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/infinity.js in 0.004 s
-[04Oct2025 11:31:07.149] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/ice_layer.js in 0.004 s
-[04Oct2025 11:31:07.151] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/hunger_fix.js in 0.0 s
-[04Oct2025 11:31:07.155] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/ground_slam.js in 0.003 s
-[04Oct2025 11:31:07.160] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/grapple.js in 0.002 s
-[04Oct2025 11:31:07.169] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/goo_fire.js in 0.007 s
-[04Oct2025 11:31:07.180] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/glow_crystals.js in 0.006 s
-[04Oct2025 11:31:07.183] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/glide.js in 0.002 s
-[04Oct2025 11:31:07.189] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/galvan_blueprints.js in 0.002 s
-[04Oct2025 11:31:07.203] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/freeze_immunity.js in 0.0 s
-[04Oct2025 11:31:07.205] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/flatten.js#1: Loaded Java class 'virtuoel.pehkui.api.ScaleTypes'
-[04Oct2025 11:31:07.210] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/flatten.js in 0.006 s
-[04Oct2025 11:31:07.216] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/fire_immunity.js in 0.0 s
-[04Oct2025 11:31:07.244] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/fire_absorb.js in 0.028 s
-[04Oct2025 11:31:07.251] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/explosion.js in 0.0 s
-[04Oct2025 11:31:07.261] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/entity_damage.js in 0.01 s
-[04Oct2025 11:31:07.272] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/draganoid.js in 0.008 s
-[04Oct2025 11:31:07.275] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/directional_damage.js in 0.001 s
-[04Oct2025 11:31:07.293] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/diamond_creation.js in 0.016 s
-[04Oct2025 11:31:07.299] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/detransform.js in 0.006 s
-[04Oct2025 11:31:07.341] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/decouple.js in 0.041 s
-[04Oct2025 11:31:07.353] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/damage_effect.js in 0.007 s
-[04Oct2025 11:31:07.357] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/cycle_sounds.js in 0.004 s
-[04Oct2025 11:31:07.360] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/current_alien_nickname_condition.js in 0.0 s
-[04Oct2025 11:31:07.385] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/crystal_pillar.js in 0.025 s
-[04Oct2025 11:31:07.408] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/core_removal.js in 0.02 s
-[04Oct2025 11:31:07.422] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/color_modules.js in 0.01 s
-[04Oct2025 11:31:07.433] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/codes.js in 0.011 s
-[04Oct2025 11:31:07.437] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/charge_leap.js in 0.004 s
-[04Oct2025 11:31:07.446] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/bounce.js in 0.009 s
-[04Oct2025 11:31:07.456] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/blocks.js#1: Loaded Java class 'net.minecraft.nbt.CompoundTag'
-[04Oct2025 11:31:07.457] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/blocks.js in 0.01 s
-[04Oct2025 11:31:07.461] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/block_wave.js in 0.004 s
-[04Oct2025 11:31:07.464] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/behind.js in 0.002 s
-[04Oct2025 11:31:07.473] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/astro_powers.js in 0.009 s
-[04Oct2025 11:31:07.479] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/alienevo_watch_condition.js in 0.0 s
-[04Oct2025 11:31:07.480] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/alienevo_color_condition.js in 0.0 s
-[04Oct2025 11:31:07.500] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/alien_codex.js#1: Loaded Java class 'net.minecraft.network.chat.Component'
-[04Oct2025 11:31:07.505] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/alien_codex.js in 0.022 s
-[04Oct2025 11:31:07.508] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/new_ice_block.js in 0.0 s
-[04Oct2025 11:31:07.511] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/leap_vax.js in 0.003 s
-[04Oct2025 11:31:07.511] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/is_mainhand.js in 0.0 s
-[04Oct2025 11:31:07.511] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/freezing_effect.js in 0.0 s
-[04Oct2025 11:31:07.512] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/chroma_leap.js in 0.0 s
-[04Oct2025 11:31:07.515] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/aoe_damage.js in 0.002 s
-[04Oct2025 11:31:07.529] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 77/77 KubeJS startup scripts in 1.595 s with 0 errors and 0 warnings
-[04Oct2025 11:31:07.657] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[04Oct2025 11:31:07.672] [modloading-worker-0/ERROR] [net.threetag.palladium.Palladium/]: Failed to register ability property "%s", type "%s" is not supported
-[04Oct2025 11:31:07.683] [modloading-worker-0/ERROR] [net.threetag.palladium.Palladium/]: Failed to register ability property "%s", type "%s" is not supported
-[04Oct2025 11:31:07.685] [modloading-worker-0/ERROR] [net.threetag.palladium.Palladium/]: Failed to register ability property "%s", type "%s" is not supported
-[04Oct2025 11:31:07.703] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/motion_to_entity.js#6: Loaded Java class 'net.minecraft.world.phys.HitResult'
-[04Oct2025 11:31:07.709] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/motion_to_entity.js#7: Loaded Java class 'net.minecraft.world.entity.decoration.ArmorStand'
-[04Oct2025 11:31:07.716] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/motion_to_entity.js#8: Loaded Java class 'net.minecraft.world.entity.boss.enderdragon.EndCrystal'
-[04Oct2025 11:31:07.734] [modloading-worker-0/ERROR] [net.threetag.palladium.Palladium/]: Failed to register ability property "%s", type "%s" is not supported
-[04Oct2025 11:31:07.846] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
-[04Oct2025 11:31:07.852] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
-[04Oct2025 11:31:07.876] [main/INFO] [net.threetag.palladium.Palladium/]: Starting addonpack initialisation...
-[04Oct2025 11:31:07.877] [main/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load pack metadata
+[04Oct2025 11:55:40.654] [modloading-worker-0/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack mod:minecraft
+[04Oct2025 11:55:40.831] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[04Oct2025 11:55:40.834] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[04Oct2025 11:55:40.844] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
+[04Oct2025 11:55:41.026] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.194 s
+[04Oct2025 11:55:41.908] [modloading-worker-0/INFO] [KubeJS Startup/]: example.js#5: Hello, World! (Loaded startup scripts)
+[04Oct2025 11:55:41.915] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:example.js in 0.188 s
+[04Oct2025 11:55:41.935] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_run_up.js in 0.019 s
+[04Oct2025 11:55:41.939] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_run_down.js in 0.001 s
+[04Oct2025 11:55:41.978] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/wall_run.js#1: Loaded Java class 'net.minecraft.world.level.ClipContext'
+[04Oct2025 11:55:41.990] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/wall_run.js#51: Loaded Java class 'net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket'
+[04Oct2025 11:55:41.991] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_run.js in 0.048 s
+[04Oct2025 11:55:42.010] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_climb_small.js in 0.018 s
+[04Oct2025 11:55:42.011] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_climb_move_condition.js in 0.0 s
+[04Oct2025 11:55:42.015] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_climb_condition.js in 0.001 s
+[04Oct2025 11:55:42.035] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/wall_climb.js in 0.02 s
+[04Oct2025 11:55:42.096] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/transform.js in 0.06 s
+[04Oct2025 11:55:42.108] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/store_armor.js in 0.012 s
+[04Oct2025 11:55:42.117] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/stat_ability.js in 0.007 s
+[04Oct2025 11:55:42.153] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/spawn_particles_block.js in 0.032 s
+[04Oct2025 11:55:42.166] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/sounds.js in 0.011 s
+[04Oct2025 11:55:42.220] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/slot_transform.js in 0.05 s
+[04Oct2025 11:55:42.228] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/screen_shake.js in 0.002 s
+[04Oct2025 11:55:42.423] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/rolling_mechanics.js#117: Loaded Java class 'net.minecraft.world.entity.LivingEntity'
+[04Oct2025 11:55:42.426] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/rolling_mechanics.js in 0.198 s
+[04Oct2025 11:55:42.431] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/recharge.js in 0.005 s
+[04Oct2025 11:55:42.436] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/quick_change_wheel_condition.js in 0.003 s
+[04Oct2025 11:55:42.439] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/quick_change.js in 0.001 s
+[04Oct2025 11:55:42.445] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/pyro_surf.js in 0.004 s
+[04Oct2025 11:55:42.457] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/projectile.js#2: Loaded Java class 'net.minecraft.world.phys.Vec3'
+[04Oct2025 11:55:42.457] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/projectile.js in 0.011 s
+[04Oct2025 11:55:42.469] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/predator_vision.js in 0.009 s
+[04Oct2025 11:55:42.481] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/playlist_cycle.js in 0.008 s
+[04Oct2025 11:55:42.506] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/ore_detect.js in 0.019 s
+[04Oct2025 11:55:42.535] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/omnitrix_timer.js in 0.027 s
+[04Oct2025 11:55:42.550] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/omnitrix_cycle_animation.js in 0.014 s
+[04Oct2025 11:55:42.595] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/omnitrix_cycle.js in 0.042 s
+[04Oct2025 11:55:42.603] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/omni_properties.js in 0.007 s
+[04Oct2025 11:55:42.604] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/motion_water.js in 0.0 s
+[04Oct2025 11:55:42.626] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/motion_to_entity.js in 0.022 s
+[04Oct2025 11:55:42.627] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/motion_dash.js in 0.0 s
+[04Oct2025 11:55:42.634] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/motion.js in 0.006 s
+[04Oct2025 11:55:42.643] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/items.js in 0.008 s
+[04Oct2025 11:55:42.644] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/is_alien.js in 0.001 s
+[04Oct2025 11:55:42.650] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/invulnerable.js in 0.0 s
+[04Oct2025 11:55:42.655] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/infinity.js in 0.005 s
+[04Oct2025 11:55:42.663] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/ice_layer.js in 0.001 s
+[04Oct2025 11:55:42.666] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/hunger_fix.js in 0.001 s
+[04Oct2025 11:55:42.678] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/ground_slam.js in 0.012 s
+[04Oct2025 11:55:42.690] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/grapple.js in 0.012 s
+[04Oct2025 11:55:42.700] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/goo_fire.js in 0.009 s
+[04Oct2025 11:55:42.708] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/glow_crystals.js in 0.008 s
+[04Oct2025 11:55:42.716] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/glide.js in 0.008 s
+[04Oct2025 11:55:42.723] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/galvan_blueprints.js in 0.007 s
+[04Oct2025 11:55:42.724] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/freeze_immunity.js in 0.001 s
+[04Oct2025 11:55:42.730] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/flatten.js#1: Loaded Java class 'virtuoel.pehkui.api.ScaleTypes'
+[04Oct2025 11:55:42.733] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/flatten.js in 0.008 s
+[04Oct2025 11:55:42.733] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/fire_immunity.js in 0.0 s
+[04Oct2025 11:55:42.754] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/fire_absorb.js in 0.019 s
+[04Oct2025 11:55:42.757] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/explosion.js in 0.0 s
+[04Oct2025 11:55:42.766] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/entity_damage.js in 0.005 s
+[04Oct2025 11:55:42.768] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/draganoid.js in 0.002 s
+[04Oct2025 11:55:42.774] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/directional_damage.js in 0.005 s
+[04Oct2025 11:55:42.787] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/diamond_creation.js in 0.011 s
+[04Oct2025 11:55:42.791] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/detransform.js in 0.003 s
+[04Oct2025 11:55:42.828] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/decouple.js in 0.037 s
+[04Oct2025 11:55:42.831] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/damage_effect.js in 0.002 s
+[04Oct2025 11:55:42.833] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/cycle_sounds.js in 0.001 s
+[04Oct2025 11:55:42.833] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/current_alien_nickname_condition.js in 0.0 s
+[04Oct2025 11:55:42.849] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/crystal_pillar.js in 0.016 s
+[04Oct2025 11:55:42.869] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/core_removal.js in 0.018 s
+[04Oct2025 11:55:42.873] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/color_modules.js in 0.004 s
+[04Oct2025 11:55:42.878] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/codes.js in 0.005 s
+[04Oct2025 11:55:42.879] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/charge_leap.js in 0.001 s
+[04Oct2025 11:55:42.883] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/bounce.js in 0.001 s
+[04Oct2025 11:55:42.893] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/blocks.js#1: Loaded Java class 'net.minecraft.nbt.CompoundTag'
+[04Oct2025 11:55:42.894] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/blocks.js in 0.01 s
+[04Oct2025 11:55:42.895] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/block_wave.js in 0.001 s
+[04Oct2025 11:55:42.898] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/behind.js in 0.003 s
+[04Oct2025 11:55:42.905] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/astro_powers.js in 0.004 s
+[04Oct2025 11:55:42.907] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/alienevo_watch_condition.js in 0.001 s
+[04Oct2025 11:55:42.907] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/alienevo_color_condition.js in 0.0 s
+[04Oct2025 11:55:42.920] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/alien_codex.js#1: Loaded Java class 'net.minecraft.network.chat.Component'
+[04Oct2025 11:55:42.927] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_alienevo:kubejs_scripts/alien_codex.js in 0.02 s
+[04Oct2025 11:55:42.933] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/new_ice_block.js in 0.003 s
+[04Oct2025 11:55:42.934] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/leap_vax.js in 0.0 s
+[04Oct2025 11:55:42.935] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/is_mainhand.js in 0.001 s
+[04Oct2025 11:55:42.935] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/freezing_effect.js in 0.0 s
+[04Oct2025 11:55:42.942] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/chroma_leap.js in 0.0 s
+[04Oct2025 11:55:42.945] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_afomni:kubejs_scripts/aoe_damage.js in 0.003 s
+[04Oct2025 11:55:42.956] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 77/77 KubeJS startup scripts in 1.919 s with 0 errors and 0 warnings
+[04Oct2025 11:55:43.122] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[04Oct2025 11:55:43.147] [modloading-worker-0/ERROR] [net.threetag.palladium.Palladium/]: Failed to register ability property "%s", type "%s" is not supported
+[04Oct2025 11:55:43.153] [modloading-worker-0/ERROR] [net.threetag.palladium.Palladium/]: Failed to register ability property "%s", type "%s" is not supported
+[04Oct2025 11:55:43.154] [modloading-worker-0/ERROR] [net.threetag.palladium.Palladium/]: Failed to register ability property "%s", type "%s" is not supported
+[04Oct2025 11:55:43.175] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/motion_to_entity.js#6: Loaded Java class 'net.minecraft.world.phys.HitResult'
+[04Oct2025 11:55:43.192] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/motion_to_entity.js#7: Loaded Java class 'net.minecraft.world.entity.decoration.ArmorStand'
+[04Oct2025 11:55:43.203] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/motion_to_entity.js#8: Loaded Java class 'net.minecraft.world.entity.boss.enderdragon.EndCrystal'
+[04Oct2025 11:55:43.246] [modloading-worker-0/ERROR] [net.threetag.palladium.Palladium/]: Failed to register ability property "%s", type "%s" is not supported
+[04Oct2025 11:55:43.388] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[04Oct2025 11:55:43.397] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[04Oct2025 11:55:43.423] [main/INFO] [net.threetag.palladium.Palladium/]: Starting addonpack initialisation...
+[04Oct2025 11:55:43.424] [main/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load pack metadata
 com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
 	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
@@ -208,48 +208,48 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[04Oct2025 11:31:07.884] [main/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack mod:minecraft
-[04Oct2025 11:31:07.898] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:architectury as it's not been marked as an addonpack
-[04Oct2025 11:31:07.899] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[04Oct2025 11:31:07.899] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:forge as it's not been marked as an addonpack
-[04Oct2025 11:31:07.899] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[04Oct2025 11:31:07.899] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:geckolib as it's not been marked as an addonpack
-[04Oct2025 11:31:07.900] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[04Oct2025 11:31:07.901] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:kubejs as it's not been marked as an addonpack
-[04Oct2025 11:31:07.902] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[04Oct2025 11:31:07.902] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:palladium as it's not been marked as an addonpack
-[04Oct2025 11:31:07.902] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[04Oct2025 11:31:07.902] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:palladiumcore as it's not been marked as an addonpack
-[04Oct2025 11:31:07.902] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[04Oct2025 11:31:07.903] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:pehkui as it's not been marked as an addonpack
-[04Oct2025 11:31:07.903] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[04Oct2025 11:31:07.906] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:playeranimator as it's not been marked as an addonpack
-[04Oct2025 11:31:07.908] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[04Oct2025 11:31:07.908] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:rhino as it's not been marked as an addonpack
-[04Oct2025 11:31:07.908] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[04Oct2025 11:31:07.921] [main/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: AlienEvo-1.1.1-forge.jar, architectury-9.2.14-forge.jar, forge-1.20.1-47.3.7-universal.jar, geckolib-forge-1.20.1-4.8.2.jar, kubejs-forge-2001.6.5-build.16.jar, palladium-4.2.9+1.20.1-forge.jar, palladiumcore-forge-1.0.1+1.20.1-forge.jar, Pehkui-3.8.2+1.20.1-forge.jar, player-animation-lib-forge-1.0.2-rc1+1.20.jar, rhino-forge-2001.2.3-build.10.jar
-[04Oct2025 11:31:07.993] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 2 addonpack creative_mode_tab
-[04Oct2025 11:31:07.995] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack armor materials
-[04Oct2025 11:31:07.998] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 1 addonpack tool tiers
-[04Oct2025 11:31:07.998] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack block
-[04Oct2025 11:31:08.008] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 49 addonpack item
-[04Oct2025 11:31:08.009] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack suit_set
-[04Oct2025 11:31:08.012] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 29 addonpack particle_type
-[04Oct2025 11:31:08.012] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 1 addonpack point_of_interest_type
-[04Oct2025 11:31:08.013] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 1 addonpack villager_profession
-[04Oct2025 11:31:08.014] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack accessory slots
-[04Oct2025 11:31:08.014] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack accessories
-[04Oct2025 11:31:08.015] [main/INFO] [net.threetag.palladium.Palladium/]: Finished addonpack initialisation!
-[04Oct2025 11:31:08.770] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/glow_crystals.js#3: Loaded Java class 'dev.latvian.mods.kubejs.item.custom.BasicItemJS$Builder'
-[04Oct2025 11:31:09.419] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[04Oct2025 11:31:10.460] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[04Oct2025 11:31:10.467] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [palladium] Starting version check at https://squirrelcontrol.threetag.net/api/forge_updates/threetag-palladium
-[04Oct2025 11:31:11.067] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [palladium] Found status: OUTDATED Current: 4.2.9 Target: 4.3.0
-[04Oct2025 11:31:11.819] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04Oct2025 11:31:12.992] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/team30/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23115!/assets/.mcassetsroot' uses unexpected schema
-[04Oct2025 11:31:12.992] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/team30/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23115!/data/.mcassetsroot' uses unexpected schema
-[04Oct2025 11:31:12.992] [main/ERROR] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: File /addon/.mcassetsroot does not exist in classpath
-[04Oct2025 11:31:13.128] [main/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load pack metadata
+[04Oct2025 11:55:43.431] [main/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack mod:minecraft
+[04Oct2025 11:55:43.449] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:architectury as it's not been marked as an addonpack
+[04Oct2025 11:55:43.450] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[04Oct2025 11:55:43.450] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:forge as it's not been marked as an addonpack
+[04Oct2025 11:55:43.451] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[04Oct2025 11:55:43.451] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:geckolib as it's not been marked as an addonpack
+[04Oct2025 11:55:43.452] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[04Oct2025 11:55:43.453] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:kubejs as it's not been marked as an addonpack
+[04Oct2025 11:55:43.453] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[04Oct2025 11:55:43.453] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:palladium as it's not been marked as an addonpack
+[04Oct2025 11:55:43.453] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[04Oct2025 11:55:43.454] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:palladiumcore as it's not been marked as an addonpack
+[04Oct2025 11:55:43.454] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[04Oct2025 11:55:43.454] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:pehkui as it's not been marked as an addonpack
+[04Oct2025 11:55:43.454] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[04Oct2025 11:55:43.455] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:playeranimator as it's not been marked as an addonpack
+[04Oct2025 11:55:43.456] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[04Oct2025 11:55:43.456] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:rhino as it's not been marked as an addonpack
+[04Oct2025 11:55:43.456] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[04Oct2025 11:55:43.460] [main/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: AlienEvo-1.1.1-forge.jar, architectury-9.2.14-forge.jar, forge-1.20.1-47.3.7-universal.jar, geckolib-forge-1.20.1-4.8.2.jar, kubejs-forge-2001.6.5-build.16.jar, palladium-4.2.9+1.20.1-forge.jar, palladiumcore-forge-1.0.1+1.20.1-forge.jar, Pehkui-3.8.2+1.20.1-forge.jar, player-animation-lib-forge-1.0.2-rc1+1.20.jar, rhino-forge-2001.2.3-build.10.jar
+[04Oct2025 11:55:43.504] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 2 addonpack creative_mode_tab
+[04Oct2025 11:55:43.505] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack armor materials
+[04Oct2025 11:55:43.507] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 1 addonpack tool tiers
+[04Oct2025 11:55:43.507] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack block
+[04Oct2025 11:55:43.511] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 49 addonpack item
+[04Oct2025 11:55:43.512] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack suit_set
+[04Oct2025 11:55:43.513] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 29 addonpack particle_type
+[04Oct2025 11:55:43.514] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 1 addonpack point_of_interest_type
+[04Oct2025 11:55:43.514] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 1 addonpack villager_profession
+[04Oct2025 11:55:43.515] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack accessory slots
+[04Oct2025 11:55:43.515] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack accessories
+[04Oct2025 11:55:43.517] [main/INFO] [net.threetag.palladium.Palladium/]: Finished addonpack initialisation!
+[04Oct2025 11:55:44.157] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_alienevo:kubejs_scripts/glow_crystals.js#3: Loaded Java class 'dev.latvian.mods.kubejs.item.custom.BasicItemJS$Builder'
+[04Oct2025 11:55:44.573] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04Oct2025 11:55:45.528] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[04Oct2025 11:55:45.529] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [palladium] Starting version check at https://squirrelcontrol.threetag.net/api/forge_updates/threetag-palladium
+[04Oct2025 11:55:46.933] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04Oct2025 11:55:47.168] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [palladium] Found status: OUTDATED Current: 4.2.9 Target: 4.3.0
+[04Oct2025 11:55:48.166] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/team30/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23115!/assets/.mcassetsroot' uses unexpected schema
+[04Oct2025 11:55:48.167] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/team30/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23115!/data/.mcassetsroot' uses unexpected schema
+[04Oct2025 11:55:48.167] [main/ERROR] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: File /addon/.mcassetsroot does not exist in classpath
+[04Oct2025 11:55:48.251] [main/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load pack metadata
 com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
 	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
@@ -287,52 +287,52 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[04Oct2025 11:31:13.133] [main/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack mod:minecraft
-[04Oct2025 11:31:13.212] [main/INFO] [KubeJS Server/]: example.js#5: Hello, World! (Loaded server scripts)
-[04Oct2025 11:31:13.213] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:example.js in 0.001 s
-[04Oct2025 11:31:13.216] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/xp.js in 0.002 s
-[04Oct2025 11:31:13.217] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/workbench_items.js in 0.001 s
-[04Oct2025 11:31:13.257] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/workbench.js in 0.039 s
-[04Oct2025 11:31:13.262] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/slam.js#3: Loaded Java class 'net.minecraft.core.particles.DustParticleOptions'
-[04Oct2025 11:31:13.262] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/slam.js#4: Loaded Java class 'org.joml.Vector3f'
-[04Oct2025 11:31:13.262] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/slam.js in 0.004 s
-[04Oct2025 11:31:13.263] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/server_stuff.js in 0.001 s
-[04Oct2025 11:31:13.264] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/ride.js in 0.001 s
-[04Oct2025 11:31:13.264] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/recipes.js in 0.0 s
-[04Oct2025 11:31:13.269] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/quick_change.js in 0.003 s
-[04Oct2025 11:31:13.271] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/pod_loot.js in 0.002 s
-[04Oct2025 11:31:13.279] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/playlist_command.js in 0.007 s
-[04Oct2025 11:31:13.284] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/palladium_properties.js in 0.003 s
-[04Oct2025 11:31:13.285] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/nickname_command.js in 0.0 s
-[04Oct2025 11:31:13.291] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/level_command.js in 0.006 s
-[04Oct2025 11:31:13.309] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/hit.js#101: Loaded Java class 'net.minecraft.world.entity.LivingEntity'
-[04Oct2025 11:31:13.312] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/hit.js#102: Loaded Java class 'net.minecraft.world.entity.decoration.ArmorStand'
-[04Oct2025 11:31:13.319] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/hit.js#103: Loaded Java class 'net.minecraft.world.entity.projectile.Projectile'
-[04Oct2025 11:31:13.319] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/hit.js#145: Loaded Java class 'net.minecraft.resources.ResourceKey'
-[04Oct2025 11:31:13.322] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/hit.js#146: Loaded Java class 'net.minecraft.tags.TagKey'
-[04Oct2025 11:31:13.322] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/hit.js in 0.027 s
-[04Oct2025 11:31:13.323] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/fall.js in 0.001 s
-[04Oct2025 11:31:13.328] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/failsafe.js in 0.005 s
-[04Oct2025 11:31:13.329] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/color_commands.js in 0.0 s
-[04Oct2025 11:31:13.333] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/code_hints.js in 0.001 s
-[04Oct2025 11:31:13.333] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/break_block.js in 0.0 s
-[04Oct2025 11:31:13.333] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/behind.js in 0.0 s
-[04Oct2025 11:31:13.336] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/attributes.js#1: Loaded Java class 'net.minecraft.world.entity.ai.attributes.Attributes'
-[04Oct2025 11:31:13.336] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/attributes.js in 0.002 s
-[04Oct2025 11:31:13.337] [main/INFO] [KubeJS Server/]: Loaded 22/22 KubeJS server scripts in 0.158 s with 0 errors and 0 warnings
-[04Oct2025 11:31:13.338] [main/INFO] [KubeJS Server/]: Scripts loaded
-[04Oct2025 11:31:13.357] [main/INFO] [KubeJS Server/]: Initializing recipe event...
-[04Oct2025 11:31:15.787] [Worker-Main-1/INFO] [KubeJS Server/]: [minecraft:item] Found 308 tags, added 4 objects, removed 0 objects
-[04Oct2025 11:31:15.877] [Worker-Main-1/INFO] [KubeJS Server/]: [minecraft:block] Found 294 tags, added 13 objects, removed 0 objects
-[04Oct2025 11:31:15.896] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag alienevo:evoastra as it is missing following references: ad_astra:oxygen (from AlienEvo-1.1.1-forge.jar)
-[04Oct2025 11:31:17.066] [main/INFO] [net.threetag.palladium.Palladium/]: Loaded 0 loot table modifications
-[04Oct2025 11:31:17.170] [main/INFO] [KubeJS Server/]: Processing recipes...
-[04Oct2025 11:31:17.293] [main/INFO] [KubeJS Server/]: Found 1228 recipes in 118.8 ms
-[04Oct2025 11:31:17.303] [main/INFO] [KubeJS Server/]: Posted recipe events in 6.250 ms
-[04Oct2025 11:31:17.413] [main/INFO] [KubeJS Server/]: Added 5 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes in 100.1 ms
-[04Oct2025 11:31:17.807] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1321 advancements
-[04Oct2025 11:31:17.861] [main/WARN] [net.threetag.palladium.Palladium/]: 'under_water' condition found, please use 'is_under_water' instead!
-[04Oct2025 11:31:17.888] [main/ERROR] [net.threetag.palladium.Palladium/]: Parsing error loading power alienevo:code_power_test
+[04Oct2025 11:55:48.254] [main/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack mod:minecraft
+[04Oct2025 11:55:48.316] [main/INFO] [KubeJS Server/]: example.js#5: Hello, World! (Loaded server scripts)
+[04Oct2025 11:55:48.317] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:example.js in 0.001 s
+[04Oct2025 11:55:48.320] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/xp.js in 0.001 s
+[04Oct2025 11:55:48.323] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/workbench_items.js in 0.003 s
+[04Oct2025 11:55:48.372] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/workbench.js in 0.049 s
+[04Oct2025 11:55:48.379] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/slam.js#3: Loaded Java class 'net.minecraft.core.particles.DustParticleOptions'
+[04Oct2025 11:55:48.384] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/slam.js#4: Loaded Java class 'org.joml.Vector3f'
+[04Oct2025 11:55:48.385] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/slam.js in 0.012 s
+[04Oct2025 11:55:48.388] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/server_stuff.js in 0.001 s
+[04Oct2025 11:55:48.389] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/ride.js in 0.001 s
+[04Oct2025 11:55:48.392] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/recipes.js in 0.0 s
+[04Oct2025 11:55:48.417] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/quick_change.js in 0.021 s
+[04Oct2025 11:55:48.430] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/pod_loot.js in 0.012 s
+[04Oct2025 11:55:48.448] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/playlist_command.js in 0.017 s
+[04Oct2025 11:55:48.452] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/palladium_properties.js in 0.003 s
+[04Oct2025 11:55:48.453] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/nickname_command.js in 0.001 s
+[04Oct2025 11:55:48.455] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/level_command.js in 0.002 s
+[04Oct2025 11:55:48.544] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/hit.js#101: Loaded Java class 'net.minecraft.world.entity.LivingEntity'
+[04Oct2025 11:55:48.561] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/hit.js#102: Loaded Java class 'net.minecraft.world.entity.decoration.ArmorStand'
+[04Oct2025 11:55:48.571] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/hit.js#103: Loaded Java class 'net.minecraft.world.entity.projectile.Projectile'
+[04Oct2025 11:55:48.574] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/hit.js#145: Loaded Java class 'net.minecraft.resources.ResourceKey'
+[04Oct2025 11:55:48.577] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/hit.js#146: Loaded Java class 'net.minecraft.tags.TagKey'
+[04Oct2025 11:55:48.577] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/hit.js in 0.119 s
+[04Oct2025 11:55:48.578] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/fall.js in 0.0 s
+[04Oct2025 11:55:48.581] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/failsafe.js in 0.002 s
+[04Oct2025 11:55:48.584] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/color_commands.js in 0.001 s
+[04Oct2025 11:55:48.587] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/code_hints.js in 0.002 s
+[04Oct2025 11:55:48.588] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/break_block.js in 0.001 s
+[04Oct2025 11:55:48.588] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/behind.js in 0.0 s
+[04Oct2025 11:55:48.589] [main/INFO] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/attributes.js#1: Loaded Java class 'net.minecraft.world.entity.ai.attributes.Attributes'
+[04Oct2025 11:55:48.590] [main/INFO] [KubeJS Server/]: Loaded script addonpack_alienevo:kubejs_scripts/attributes.js in 0.002 s
+[04Oct2025 11:55:48.591] [main/INFO] [KubeJS Server/]: Loaded 22/22 KubeJS server scripts in 0.315 s with 0 errors and 0 warnings
+[04Oct2025 11:55:48.591] [main/INFO] [KubeJS Server/]: Scripts loaded
+[04Oct2025 11:55:48.610] [main/INFO] [KubeJS Server/]: Initializing recipe event...
+[04Oct2025 11:55:50.774] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag alienevo:evoastra as it is missing following references: ad_astra:oxygen (from AlienEvo-1.1.1-forge.jar)
+[04Oct2025 11:55:50.831] [Worker-Main-1/INFO] [KubeJS Server/]: [minecraft:item] Found 308 tags, added 4 objects, removed 0 objects
+[04Oct2025 11:55:50.890] [Worker-Main-1/INFO] [KubeJS Server/]: [minecraft:block] Found 294 tags, added 13 objects, removed 0 objects
+[04Oct2025 11:55:52.387] [main/INFO] [net.threetag.palladium.Palladium/]: Loaded 0 loot table modifications
+[04Oct2025 11:55:52.424] [main/INFO] [KubeJS Server/]: Processing recipes...
+[04Oct2025 11:55:52.534] [main/INFO] [KubeJS Server/]: Found 1228 recipes in 106.9 ms
+[04Oct2025 11:55:52.538] [main/INFO] [KubeJS Server/]: Posted recipe events in 3.227 ms
+[04Oct2025 11:55:52.674] [main/INFO] [KubeJS Server/]: Added 5 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes in 131.2 ms
+[04Oct2025 11:55:52.972] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1321 advancements
+[04Oct2025 11:55:53.027] [main/WARN] [net.threetag.palladium.Palladium/]: 'under_water' condition found, please use 'is_under_water' instead!
+[04Oct2025 11:55:53.060] [main/ERROR] [net.threetag.palladium.Palladium/]: Parsing error loading power alienevo:code_power_test
 com.google.gson.JsonParseException: Ability 'alienevo:generate_random' does not exist!
 	at net.threetag.palladium.power.ability.AbilityConfiguration.fromJSON(AbilityConfiguration.java:192) ~[palladium-4.2.9+1.20.1-forge.jar%23111!/:4.2.9+1.20.1]
 	at net.threetag.palladium.power.Power.fromJSON(Power.java:186) ~[palladium-4.2.9+1.20.1-forge.jar%23111!/:4.2.9+1.20.1]
@@ -362,46 +362,115 @@ com.google.gson.JsonParseException: Ability 'alienevo:generate_random' does not 
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[04Oct2025 11:31:17.954] [main/INFO] [net.threetag.palladium.Palladium/]: Loaded 62 powers
-[04Oct2025 11:31:17.959] [main/INFO] [net.threetag.palladium.Palladium/]: Loaded 1 item powers
-[04Oct2025 11:31:17.960] [main/INFO] [net.threetag.palladium.Palladium/]: Loaded 0 suit set powers
-[04Oct2025 11:31:17.960] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 69 objectives to be tracked
-[04Oct2025 11:31:18.975] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[04Oct2025 11:31:18.976] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[04Oct2025 11:31:18.978] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[04Oct2025 11:31:18.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[04Oct2025 11:31:19.227] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[04Oct2025 11:31:19.282] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[04Oct2025 11:31:19.426] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04Oct2025 11:31:19.427] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[04Oct2025 11:31:19.427] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04Oct2025 11:31:19.429] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[04Oct2025 11:31:19.537] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[04Oct2025 11:31:26.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[04Oct2025 11:31:26.549] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
-[04Oct2025 11:31:35.606] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.612] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.613] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.615] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.616] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.619] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.620] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.620] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.623] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.624] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.624] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.631] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.632] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.635] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.636] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.638] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.642] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.645] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:35.648] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:36.043] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:36.543] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:37.043] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:37.613] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 11:31:38.375] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11833 ms
-[04Oct2025 11:31:38.377] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (18.931s)! For help, type "help"
-[04Oct2025 11:31:38.415] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[04Oct2025 11:55:53.115] [main/INFO] [net.threetag.palladium.Palladium/]: Loaded 62 powers
+[04Oct2025 11:55:53.118] [main/INFO] [net.threetag.palladium.Palladium/]: Loaded 1 item powers
+[04Oct2025 11:55:53.119] [main/INFO] [net.threetag.palladium.Palladium/]: Loaded 0 suit set powers
+[04Oct2025 11:55:53.122] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 69 objectives to be tracked
+[04Oct2025 11:55:53.913] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[04Oct2025 11:55:53.915] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[04Oct2025 11:55:53.916] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[04Oct2025 11:55:53.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[04Oct2025 11:55:54.653] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[04Oct2025 11:55:54.691] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[04Oct2025 11:55:54.827] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04Oct2025 11:55:54.827] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[04Oct2025 11:55:54.828] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04Oct2025 11:55:54.829] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[04Oct2025 11:55:54.943] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[04Oct2025 11:56:01.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04Oct2025 11:56:01.700] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[04Oct2025 11:56:12.486] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.492] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.495] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.495] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.497] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.500] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.503] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.505] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.509] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.511] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.514] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.515] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.518] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.521] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.524] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.529] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.531] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.533] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.538] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.544] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.544] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.547] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:12.693] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:13.194] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:13.695] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 11:56:14.194] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[04Oct2025 11:56:14.756] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 13063 ms
+[04Oct2025 11:56:14.759] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (19.907s)! For help, type "help"
+[04Oct2025 11:56:14.832] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[04Oct2025 11:56:21.061] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ghost2026yT[/100.67.52.59:53770] logged in with entity id 141 at (432.94260174859096, 67.0, 36.353204981794015)
+[04Oct2025 11:56:21.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT joined the game
+[04Oct2025 11:56:22.652] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[04Oct2025 11:56:41.078] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3444ms or 68 ticks behind
+[04Oct2025 11:56:51.700] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ghost2026yT was kicked for floating too long!
+[04Oct2025 11:56:51.758] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ghost2026yT lost connection: Flying is not enabled on this server
+[04Oct2025 11:56:51.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT left the game
+[04Oct2025 11:57:04.377] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ghost2026yT[/100.67.52.59:42448] logged in with entity id 327 at (427.61371863566677, 67.02442408821369, 53.18209586047356)
+[04Oct2025 11:57:04.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT joined the game
+[04Oct2025 12:06:16.752] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/337, l='ServerLevel[world]', x=411.50, y=64.56, z=57.90] died, message: 'Fletcher was slain by Ghost2026yT'
+[04Oct2025 12:10:13.312] [Server thread/ERROR] [KubeJS Server/]: addonpack_alienevo:kubejs_scripts/ride.js#13: Error in 'ItemEvents.entityInteracted': Can't find method net.threetag.palladium.power.ability.AbilityUtil.hasPower(net.minecraft.world.entity.vehicle.Boat,string).
+[04Oct2025 12:10:13.328] [Server thread/ERROR] [KubeJS Server/]: …rhino.EvaluatorException: Can't find method net.threetag.palladium.power.ability.AbilityUtil.hasPower(net.minecraft.world.entity.vehicle.Boat,string). (addonpack_alienevo:kubejs_scripts/ride.js#13)
+[04Oct2025 12:10:13.332] [Server thread/ERROR] [KubeJS Server/]:   at …rhino.DefaultErrorReporter.runtimeError(DefaultErrorReporter.java:67)
+[04Oct2025 12:10:13.333] [Server thread/ERROR] [KubeJS Server/]:   at …rhino.Context.reportRuntimeError(Context.java:133)
+[04Oct2025 12:10:13.334] [Server thread/ERROR] [KubeJS Server/]:   at …rhino.Context.reportRuntimeError(Context.java:173)
+[04Oct2025 12:10:13.335] [Server thread/ERROR] [KubeJS Server/]:   at …rhino.Context.reportRuntimeError1(Context.java:145)
+[04Oct2025 12:10:13.335] [Server thread/ERROR] [KubeJS Server/]:   at …rhino.NativeJavaMethod.call(NativeJavaMethod.java:379)
+[04Oct2025 12:10:13.336] [Server thread/ERROR] [KubeJS Server/]:   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
+[04Oct2025 12:10:13.337] [Server thread/ERROR] [KubeJS Server/]:   at script(addonpack_alienevo:kubejs_scripts/ride.js:13)
+[04Oct2025 12:10:13.338] [Server thread/ERROR] [KubeJS Server/]:   at …rhino.Interpreter.interpret(Interpreter.java:370)
+[04Oct2025 12:10:13.339] [Server thread/ERROR] [KubeJS Server/]:   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
+[04Oct2025 12:10:13.339] [Server thread/ERROR] [KubeJS Server/]:   at …rhino.Context.callSync(Context.java:1357)
+[04Oct2025 12:10:13.340] [Server thread/ERROR] [KubeJS Server/]:   at …rhino.Context.doTopCall(Context.java:1374)
+[04Oct2025 12:10:13.343] [Server thread/ERROR] [KubeJS Server/]:   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
+[04Oct2025 12:10:13.345] [Server thread/ERROR] [KubeJS Server/]:   at …rhino.Context.callSync(Context.java:1357)
+[04Oct2025 12:10:13.345] [Server thread/ERROR] [KubeJS Server/]:   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
+[04Oct2025 12:10:13.345] [Server thread/ERROR] [KubeJS Server/]:   at …rhino.Context.callSync(Context.java:1357)
+[04Oct2025 12:10:13.345] [Server thread/ERROR] [KubeJS Server/]:   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
+[04Oct2025 12:10:13.346] [Server thread/ERROR] [KubeJS Server/]:   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
+[04Oct2025 12:10:13.346] [Server thread/ERROR] [KubeJS Server/]:   at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy38.onEvent(Unknown Source)
+[04Oct2025 12:10:13.346] [Server thread/ERROR] [KubeJS Server/]:   at …kubejs.event.EventHandlerContainer.handle(EventHandlerContainer.java:39)
+[04Oct2025 12:10:13.348] [Server thread/ERROR] [KubeJS Server/]:   at …kubejs.event.EventHandler.postToHandlers(EventHandler.java:304)
+[04Oct2025 12:10:13.353] [Server thread/ERROR] [KubeJS Server/]:   at …kubejs.event.EventHandler.post(EventHandler.java:272)
+[04Oct2025 12:10:13.357] [Server thread/ERROR] [KubeJS Server/]:   at …kubejs.event.EventHandler.post(EventHandler.java:226)
+[04Oct2025 12:10:13.358] [Server thread/ERROR] [KubeJS Server/]:   at …kubejs.item.KubeJSItemEventHandler.entityInteract(KubeJSItemEventHandler.java:57)
+[04Oct2025 12:10:13.361] [Server thread/ERROR] [KubeJS Server/]:   at dev.architectury.event.forge.EventHandlerImplCommon.eventPlayerInteractEvent(EventHandlerImplCommon.java:348)
+[04Oct2025 12:10:13.362] [Server thread/ERROR] [KubeJS Server/]:   at dev.architectury.event.forge.__EventHandlerImplCommon_eventPlayerInteractEvent_EntityInteract.invoke(.dynamic)
+[04Oct2025 12:10:13.366] [Server thread/ERROR] [KubeJS Server/]:   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+[04Oct2025 12:10:13.369] [Server thread/ERROR] [KubeJS Server/]:   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+[04Oct2025 12:10:13.371] [Server thread/ERROR] [KubeJS Server/]:   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+[04Oct2025 12:10:13.372] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraftforge.common.ForgeHooks.onInteractEntity(ForgeHooks.java:764)
+[04Oct2025 12:10:13.374] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.world.entity.player.Player.m_36157_(Player.java:975)
+[04Oct2025 12:10:13.375] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1460)
+[04Oct2025 12:10:13.376] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1472)
+[04Oct2025 12:10:13.377] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116)
+[04Oct2025 12:10:13.379] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66)
+[04Oct2025 12:10:13.381] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1455)
+[04Oct2025 12:10:13.382] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53)
+[04Oct2025 12:10:13.382] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13)
+[04Oct2025 12:10:13.383] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+[04Oct2025 12:10:13.388] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.server.TickTask.run(TickTask.java:18)
+[04Oct2025 12:10:13.389] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+[04Oct2025 12:10:13.394] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[04Oct2025 12:10:13.395] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+[04Oct2025 12:10:13.395] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+[04Oct2025 12:10:13.396] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+[04Oct2025 12:10:13.396] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+[04Oct2025 12:10:13.397] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+[04Oct2025 12:10:13.400] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+[04Oct2025 12:10:13.401] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+[04Oct2025 12:10:13.402] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+[04Oct2025 12:10:13.402] [Server thread/ERROR] [KubeJS Server/]:   at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+[04Oct2025 12:10:13.403] [Server thread/ERROR] [KubeJS Server/]:   at java.lang.Thread.run(Thread.java:840)
+[04Oct2025 12:16:24.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT has made the advancement [Galvanize!]
+[04Oct2025 12:19:35.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to 399.500000, 64.500000, 51.500000]
+[04Oct2025 12:21:20.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -280.500000, 68.500000, 883.500000]

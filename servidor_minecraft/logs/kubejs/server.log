@@ -1,45 +1,98 @@
-[11:31:13] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[11:31:13] [INIT] Loaded plugins:
-[11:31:13] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[11:31:13] [INIT] - net.threetag.palladium.compat.kubejs.PalladiumKubeJSPlugin
-[11:31:13] [INFO] example.js#5: Hello, World! (Loaded server scripts)
-[11:31:13] [INFO] Loaded script server_scripts:example.js in 0.001 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/xp.js in 0.002 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/workbench_items.js in 0.001 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/workbench.js in 0.039 s
-[11:31:13] [INFO] addonpack_alienevo:kubejs_scripts/slam.js#3: Loaded Java class 'net.minecraft.core.particles.DustParticleOptions'
-[11:31:13] [INFO] addonpack_alienevo:kubejs_scripts/slam.js#4: Loaded Java class 'org.joml.Vector3f'
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/slam.js in 0.004 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/server_stuff.js in 0.001 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/ride.js in 0.001 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/recipes.js in 0.0 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/quick_change.js in 0.003 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/pod_loot.js in 0.002 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/playlist_command.js in 0.007 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/palladium_properties.js in 0.003 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/nickname_command.js in 0.0 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/level_command.js in 0.006 s
-[11:31:13] [INFO] addonpack_alienevo:kubejs_scripts/hit.js#101: Loaded Java class 'net.minecraft.world.entity.LivingEntity'
-[11:31:13] [INFO] addonpack_alienevo:kubejs_scripts/hit.js#102: Loaded Java class 'net.minecraft.world.entity.decoration.ArmorStand'
-[11:31:13] [INFO] addonpack_alienevo:kubejs_scripts/hit.js#103: Loaded Java class 'net.minecraft.world.entity.projectile.Projectile'
-[11:31:13] [INFO] addonpack_alienevo:kubejs_scripts/hit.js#145: Loaded Java class 'net.minecraft.resources.ResourceKey'
-[11:31:13] [INFO] addonpack_alienevo:kubejs_scripts/hit.js#146: Loaded Java class 'net.minecraft.tags.TagKey'
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/hit.js in 0.027 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/fall.js in 0.001 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/failsafe.js in 0.005 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/color_commands.js in 0.0 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/code_hints.js in 0.001 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/break_block.js in 0.0 s
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/behind.js in 0.0 s
-[11:31:13] [INFO] addonpack_alienevo:kubejs_scripts/attributes.js#1: Loaded Java class 'net.minecraft.world.entity.ai.attributes.Attributes'
-[11:31:13] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/attributes.js in 0.002 s
-[11:31:13] [INFO] Loaded 22/22 KubeJS server scripts in 0.158 s with 0 errors and 0 warnings
-[11:31:13] [INFO] Scripts loaded
-[11:31:13] [INFO] Initializing recipe event...
-[11:31:15] [INFO] [minecraft:item] Found 308 tags, added 4 objects, removed 0 objects
-[11:31:15] [INFO] [minecraft:block] Found 294 tags, added 13 objects, removed 0 objects
-[11:31:17] [INFO] Processing recipes...
-[11:31:17] [INFO] Found 1228 recipes in 118.8 ms
-[11:31:17] [INFO] Posted recipe events in 6.250 ms
-[11:31:17] [INFO] Added 5 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes in 100.1 ms
-[11:31:26] [INFO] Server resource reload complete!
+[11:55:48] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[11:55:48] [INIT] Loaded plugins:
+[11:55:48] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[11:55:48] [INIT] - net.threetag.palladium.compat.kubejs.PalladiumKubeJSPlugin
+[11:55:48] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[11:55:48] [INFO] Loaded script server_scripts:example.js in 0.001 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/xp.js in 0.001 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/workbench_items.js in 0.003 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/workbench.js in 0.049 s
+[11:55:48] [INFO] addonpack_alienevo:kubejs_scripts/slam.js#3: Loaded Java class 'net.minecraft.core.particles.DustParticleOptions'
+[11:55:48] [INFO] addonpack_alienevo:kubejs_scripts/slam.js#4: Loaded Java class 'org.joml.Vector3f'
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/slam.js in 0.012 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/server_stuff.js in 0.001 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/ride.js in 0.001 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/recipes.js in 0.0 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/quick_change.js in 0.021 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/pod_loot.js in 0.012 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/playlist_command.js in 0.017 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/palladium_properties.js in 0.003 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/nickname_command.js in 0.001 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/level_command.js in 0.002 s
+[11:55:48] [INFO] addonpack_alienevo:kubejs_scripts/hit.js#101: Loaded Java class 'net.minecraft.world.entity.LivingEntity'
+[11:55:48] [INFO] addonpack_alienevo:kubejs_scripts/hit.js#102: Loaded Java class 'net.minecraft.world.entity.decoration.ArmorStand'
+[11:55:48] [INFO] addonpack_alienevo:kubejs_scripts/hit.js#103: Loaded Java class 'net.minecraft.world.entity.projectile.Projectile'
+[11:55:48] [INFO] addonpack_alienevo:kubejs_scripts/hit.js#145: Loaded Java class 'net.minecraft.resources.ResourceKey'
+[11:55:48] [INFO] addonpack_alienevo:kubejs_scripts/hit.js#146: Loaded Java class 'net.minecraft.tags.TagKey'
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/hit.js in 0.119 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/fall.js in 0.0 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/failsafe.js in 0.002 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/color_commands.js in 0.001 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/code_hints.js in 0.002 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/break_block.js in 0.001 s
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/behind.js in 0.0 s
+[11:55:48] [INFO] addonpack_alienevo:kubejs_scripts/attributes.js#1: Loaded Java class 'net.minecraft.world.entity.ai.attributes.Attributes'
+[11:55:48] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/attributes.js in 0.002 s
+[11:55:48] [INFO] Loaded 22/22 KubeJS server scripts in 0.315 s with 0 errors and 0 warnings
+[11:55:48] [INFO] Scripts loaded
+[11:55:48] [INFO] Initializing recipe event...
+[11:55:50] [INFO] [minecraft:item] Found 308 tags, added 4 objects, removed 0 objects
+[11:55:50] [INFO] [minecraft:block] Found 294 tags, added 13 objects, removed 0 objects
+[11:55:52] [INFO] Processing recipes...
+[11:55:52] [INFO] Found 1228 recipes in 106.9 ms
+[11:55:52] [INFO] Posted recipe events in 3.227 ms
+[11:55:52] [INFO] Added 5 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes in 131.2 ms
+[11:56:01] [INFO] Server resource reload complete!
+[12:10:13] [ERROR] ! addonpack_alienevo:kubejs_scripts/ride.js#13: Error in 'ItemEvents.entityInteracted': Can't find method net.threetag.palladium.power.ability.AbilityUtil.hasPower(net.minecraft.world.entity.vehicle.Boat,string).
+[12:10:13] [ERROR] ! …rhino.EvaluatorException: Can't find method net.threetag.palladium.power.ability.AbilityUtil.hasPower(net.minecraft.world.entity.vehicle.Boat,string). (addonpack_alienevo:kubejs_scripts/ride.js#13)
+[12:10:13] [ERROR] !   at …rhino.DefaultErrorReporter.runtimeError(DefaultErrorReporter.java:67)
+[12:10:13] [ERROR] !   at …rhino.Context.reportRuntimeError(Context.java:133)
+[12:10:13] [ERROR] !   at …rhino.Context.reportRuntimeError(Context.java:173)
+[12:10:13] [ERROR] !   at …rhino.Context.reportRuntimeError1(Context.java:145)
+[12:10:13] [ERROR] !   at …rhino.NativeJavaMethod.call(NativeJavaMethod.java:379)
+[12:10:13] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
+[12:10:13] [ERROR] !   at script(addonpack_alienevo:kubejs_scripts/ride.js:13)
+[12:10:13] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
+[12:10:13] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
+[12:10:13] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[12:10:13] [ERROR] !   at …rhino.Context.doTopCall(Context.java:1374)
+[12:10:13] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
+[12:10:13] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[12:10:13] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
+[12:10:13] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[12:10:13] [ERROR] !   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
+[12:10:13] [ERROR] !   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
+[12:10:13] [ERROR] !   at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy38.onEvent(Unknown Source)
+[12:10:13] [ERROR] !   at …kubejs.event.EventHandlerContainer.handle(EventHandlerContainer.java:39)
+[12:10:13] [ERROR] !   at …kubejs.event.EventHandler.postToHandlers(EventHandler.java:304)
+[12:10:13] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:272)
+[12:10:13] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:226)
+[12:10:13] [ERROR] !   at …kubejs.item.KubeJSItemEventHandler.entityInteract(KubeJSItemEventHandler.java:57)
+[12:10:13] [ERROR] !   at dev.architectury.event.forge.EventHandlerImplCommon.eventPlayerInteractEvent(EventHandlerImplCommon.java:348)
+[12:10:13] [ERROR] !   at dev.architectury.event.forge.__EventHandlerImplCommon_eventPlayerInteractEvent_EntityInteract.invoke(.dynamic)
+[12:10:13] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+[12:10:13] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+[12:10:13] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+[12:10:13] [ERROR] !   at net.minecraftforge.common.ForgeHooks.onInteractEntity(ForgeHooks.java:764)
+[12:10:13] [ERROR] !   at net.minecraft.world.entity.player.Player.m_36157_(Player.java:975)
+[12:10:13] [ERROR] !   at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1460)
+[12:10:13] [ERROR] !   at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1472)
+[12:10:13] [ERROR] !   at net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116)
+[12:10:13] [ERROR] !   at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66)
+[12:10:13] [ERROR] !   at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1455)
+[12:10:13] [ERROR] !   at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53)
+[12:10:13] [ERROR] !   at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13)
+[12:10:13] [ERROR] !   at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+[12:10:13] [ERROR] !   at net.minecraft.server.TickTask.run(TickTask.java:18)
+[12:10:13] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+[12:10:13] [ERROR] !   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[12:10:13] [ERROR] !   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+[12:10:13] [ERROR] !   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+[12:10:13] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+[12:10:13] [ERROR] !   at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+[12:10:13] [ERROR] !   at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+[12:10:13] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+[12:10:13] [ERROR] !   at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+[12:10:13] [ERROR] !   at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+[12:10:13] [ERROR] !   at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+[12:10:13] [ERROR] !   at java.lang.Thread.run(Thread.java:840)
