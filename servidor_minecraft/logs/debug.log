@@ -1759,3 +1759,14 @@ com.google.gson.JsonParseException: Ability 'alienevo:generate_random' does not 
 [04Oct2025 12:31:20.286] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [04Oct2025 12:32:20.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to 399.500000, 64.500000, 51.500000]
 [04Oct2025 12:35:39.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -281.500000, 71.500000, 1083.500000]
+[04Oct2025 12:36:09.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -281.500000, 71.500000, 1083.500000]
+[04Oct2025 12:36:20.278] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Oct2025 12:36:20.283] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Oct2025 12:40:10.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to 399.500000, 64.500000, 51.500000]
+[04Oct2025 12:41:20.259] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Oct2025 12:41:20.265] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Oct2025 12:41:55.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -281.500000, 71.500000, 1083.500000]
+[04Oct2025 12:43:26.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to 399.500000, 64.500000, 51.500000]
+[04Oct2025 12:43:48.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -281.500000, 71.500000, 1083.500000]
+[04Oct2025 12:45:11.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to 399.500000, 64.500000, 51.500000]
+[04Oct2025 12:45:41.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -281.500000, 71.500000, 1083.500000]
