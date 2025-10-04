@@ -452,3 +452,19 @@ com.google.gson.JsonParseException: Ability 'alienevo:generate_random' does not 
 [04Oct2025 16:44:52.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT left the game
 [04Oct2025 16:45:06.929] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ghost2026yT[/100.67.52.59:40326] logged in with entity id 24901 at (-562.7377328984417, 59.00133597911215, 366.86216332297874)
 [04Oct2025 16:45:07.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT joined the game
+[04Oct2025 16:46:20.749] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: muela lost connection: Disconnected
+[04Oct2025 16:46:20.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: muela left the game
+[04Oct2025 16:46:22.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT tried to swim in lava
+[04Oct2025 16:47:27.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -1016.500000, 69.500000, 1736.500000]
+[04Oct2025 16:59:59.990] [Worker-Main-17/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=25, y=-28, z=-41}
+[04Oct2025 17:08:03.999] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ghost2026yT was kicked for floating too long!
+[04Oct2025 17:08:04.039] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ghost2026yT lost connection: Flying is not enabled on this server
+[04Oct2025 17:08:04.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT left the game
+[04Oct2025 17:08:22.058] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ghost2026yT[/100.67.52.59:35684] logged in with entity id 36064 at (-1459.354849124738, 73.16610926093821, 235.16864899704234)
+[04Oct2025 17:08:22.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT joined the game
+[04Oct2025 17:10:35.506] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element alienevo:crash_site took 6 ms
+[04Oct2025 17:11:34.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT has made the advancement [Crash Course]
+[04Oct2025 17:12:11.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost2026yT has made the advancement [The Core of It All]
+[04Oct2025 17:13:27.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -281.500000, 71.500000, 1083.500000]
+[04Oct2025 17:13:52.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -1507.500000, 88.500000, -38.500000]
+[04Oct2025 17:15:05.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ghost2026yT: Teleported Ghost2026yT to -281.500000, 71.500000, 1083.500000]
